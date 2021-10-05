@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj": {}
+  },
+  "projects": {
+    "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
+        "projectName": "TeamTalkStation-TTS_Client",
+        "projectPath": "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
+        "packagesPath": "/home/nucleon14/.nuget/packages/",
+        "outputPath": "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nucleon14/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.7, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.10.7, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[0.10.7, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[0.10.7, )"
+            },
+            "PanAndZoom": {
+              "target": "Package",
+              "version": "[3.0.0-preview6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[5.0.9, 5.0.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100-rc.1.21463.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
