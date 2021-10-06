@@ -7,6 +7,9 @@
     </Application.DataTemplates>
 
     <Application.Styles>
-        <FluentTheme Mode="Light"/>
+        <FluentTheme Mode="Dark"/>
+        <!-- <StyleInclude Source="/Styles/Accents.axaml"/> -->
+        <!-- <StyleInclude Source="/Styles/MessageComposer.axaml"/> -->
+        <StyleInclude Source="/Styles/ChatBubble.axaml"/>
     </Application.Styles>
 </Application>

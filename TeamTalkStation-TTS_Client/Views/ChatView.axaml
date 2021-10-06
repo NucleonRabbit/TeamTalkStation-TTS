@@ -6,7 +6,7 @@
              xmlns:models="clr-namespace:TeamTalkStation_TTS_Client.Models"
              Background="{DynamicResource ChatBackground}"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="Bellow.Client.Views.ChatView">
+             x:Class="TeamTalkStation_TTS_Client.Views.ChatView">
 
 
   <UserControl.DataTemplates>

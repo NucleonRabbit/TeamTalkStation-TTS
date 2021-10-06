@@ -4,7 +4,7 @@ using Avalonia.Markup.Xaml;
 using Avalonia.ReactiveUI;
 using TeamTalkStation_TTS_Client.ViewModels;
 
-namespace Bellow.Client.Views
+namespace TeamTalkStation_TTS_Client.Views
 {
     public class ChatView : ReactiveUserControl<ChatViewModel>
     {
