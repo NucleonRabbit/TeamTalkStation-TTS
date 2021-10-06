@@ -2,6 +2,7 @@
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.Base.dll
 /home/nucleon14/.nuget/packages/avalonia.controls.datagrid/0.10.7/lib/netstandard2.0/Avalonia.Controls.DataGrid.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.Controls.dll
+/home/nucleon14/.nuget/packages/avalonia.controls.panandzoom/4.0.0/lib/net5.0/Avalonia.Controls.PanAndZoom.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.DesignerSupport.dll
 /home/nucleon14/.nuget/packages/avalonia.desktop/0.10.7/lib/netstandard2.0/Avalonia.Desktop.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.DesktopRuntime.dll
@@ -39,7 +40,6 @@
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/5.0.0/ref/net5.0/Microsoft.Win32.Primitives.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/5.0.0/ref/net5.0/mscorlib.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/5.0.0/ref/net5.0/netstandard.dll
-/home/nucleon14/.nuget/packages/panandzoom/3.0.0-preview6/lib/netstandard2.1/PanAndZoom.dll
 /home/nucleon14/.nuget/packages/reactiveui/13.2.10/lib/net5.0/ReactiveUI.dll
 /home/nucleon14/.nuget/packages/skiasharp/2.80.2/lib/netstandard2.0/SkiaSharp.dll
 /home/nucleon14/.nuget/packages/splat/10.0.1/lib/net5.0/Splat.dll

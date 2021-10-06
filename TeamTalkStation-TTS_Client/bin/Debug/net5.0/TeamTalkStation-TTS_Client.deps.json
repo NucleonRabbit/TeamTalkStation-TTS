@@ -9,10 +9,10 @@
       "TeamTalkStation-TTS_Client/1.0.0": {
         "dependencies": {
           "Avalonia": "0.10.7",
+          "Avalonia.Controls.PanAndZoom": "4.0.0",
           "Avalonia.Desktop": "0.10.7",
           "Avalonia.Diagnostics": "0.10.7",
-          "Avalonia.ReactiveUI": "0.10.7",
-          "PanAndZoom": "3.0.0-preview6"
+          "Avalonia.ReactiveUI": "0.10.7"
         },
         "runtime": {
           "TeamTalkStation-TTS_Client.dll": {}
@@ -133,6 +133,17 @@
           "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {
             "assemblyVersion": "0.10.7.0",
             "fileVersion": "0.10.7.0"
+          }
+        }
+      },
+      "Avalonia.Controls.PanAndZoom/4.0.0": {
+        "dependencies": {
+          "Avalonia": "0.10.7"
+        },
+        "runtime": {
+          "lib/net5.0/Avalonia.Controls.PanAndZoom.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
           }
         }
       },
@@ -599,14 +610,6 @@
           }
         }
       },
-      "PanAndZoom/3.0.0-preview6": {
-        "runtime": {
-          "lib/netstandard2.1/PanAndZoom.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
-        }
-      },
       "ReactiveUI/13.2.10": {
         "dependencies": {
           "DynamicData": "7.1.1",
@@ -977,6 +980,13 @@
       "path": "avalonia.controls.datagrid/0.10.7",
       "hashPath": "avalonia.controls.datagrid.0.10.7.nupkg.sha512"
     },
+    "Avalonia.Controls.PanAndZoom/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kuHyZvEK/zNYOKM9wDxnsb7TO9R0PmDh+vEGveU2sBmeylvM/5+jXBLPSinv/w6BbfMfb98vH791WsJkk/lyEQ==",
+      "path": "avalonia.controls.panandzoom/4.0.0",
+      "hashPath": "avalonia.controls.panandzoom.4.0.0.nupkg.sha512"
+    },
     "Avalonia.Desktop/0.10.7": {
       "type": "package",
       "serviceable": true,
@@ -1130,13 +1140,6 @@
       "sha512": "sha512-LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
       "path": "microsoft.win32.systemevents/4.5.0",
       "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
-    },
-    "PanAndZoom/3.0.0-preview6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dcU445j13SuCOWOUWq6PR1fvPvP2sjJ/Ev6edTAklnZkn/Gqi8s9kRhT2F/mv3eSuwROY9Sk0iwiIQG3U1lYDQ==",
-      "path": "panandzoom/3.0.0-preview6",
-      "hashPath": "panandzoom.3.0.0-preview6.nupkg.sha512"
     },
     "ReactiveUI/13.2.10": {
       "type": "package",

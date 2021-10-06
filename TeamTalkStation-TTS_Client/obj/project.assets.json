@@ -90,6 +90,18 @@
           "lib/netstandard2.0/Avalonia.Controls.DataGrid.dll": {}
         }
       },
+      "Avalonia.Controls.PanAndZoom/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "0.10.7"
+        },
+        "compile": {
+          "lib/net5.0/Avalonia.Controls.PanAndZoom.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Avalonia.Controls.PanAndZoom.dll": {}
+        }
+      },
       "Avalonia.Desktop/0.10.7": {
         "type": "package",
         "dependencies": {
@@ -592,15 +604,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "PanAndZoom/3.0.0-preview6": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.1/PanAndZoom.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/PanAndZoom.dll": {}
         }
       },
       "ReactiveUI/13.2.10": {
@@ -1333,6 +1336,25 @@
         "lib/netstandard2.0/Avalonia.Controls.DataGrid.xml"
       ]
     },
+    "Avalonia.Controls.PanAndZoom/4.0.0": {
+      "sha512": "kuHyZvEK/zNYOKM9wDxnsb7TO9R0PmDh+vEGveU2sBmeylvM/5+jXBLPSinv/w6BbfMfb98vH791WsJkk/lyEQ==",
+      "type": "package",
+      "path": "avalonia.controls.panandzoom/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonia.controls.panandzoom.4.0.0.nupkg.sha512",
+        "avalonia.controls.panandzoom.nuspec",
+        "lib/net461/Avalonia.Controls.PanAndZoom.dll",
+        "lib/net461/Avalonia.Controls.PanAndZoom.xml",
+        "lib/net5.0/Avalonia.Controls.PanAndZoom.dll",
+        "lib/net5.0/Avalonia.Controls.PanAndZoom.xml",
+        "lib/netstandard2.0/Avalonia.Controls.PanAndZoom.dll",
+        "lib/netstandard2.0/Avalonia.Controls.PanAndZoom.xml",
+        "lib/netstandard2.1/Avalonia.Controls.PanAndZoom.dll",
+        "lib/netstandard2.1/Avalonia.Controls.PanAndZoom.xml"
+      ]
+    },
     "Avalonia.Desktop/0.10.7": {
       "sha512": "pSVPwUkGB37mzz1ZCW55y2ddiLYVw2bbHu1tmdwbJq1ZgL6xhyEIwCqFemwt2VR/dr74eN8CFlQuU8cHwFZFPA==",
       "type": "package",
@@ -1904,23 +1926,6 @@
         "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "PanAndZoom/3.0.0-preview6": {
-      "sha512": "dcU445j13SuCOWOUWq6PR1fvPvP2sjJ/Ev6edTAklnZkn/Gqi8s9kRhT2F/mv3eSuwROY9Sk0iwiIQG3U1lYDQ==",
-      "type": "package",
-      "path": "panandzoom/3.0.0-preview6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net461/PanAndZoom.dll",
-        "lib/net461/PanAndZoom.xml",
-        "lib/netstandard2.0/PanAndZoom.dll",
-        "lib/netstandard2.0/PanAndZoom.xml",
-        "lib/netstandard2.1/PanAndZoom.dll",
-        "lib/netstandard2.1/PanAndZoom.xml",
-        "panandzoom.3.0.0-preview6.nupkg.sha512",
-        "panandzoom.nuspec"
       ]
     },
     "ReactiveUI/13.2.10": {
@@ -4174,10 +4179,10 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Avalonia >= 0.10.7",
+      "Avalonia.Controls.PanAndZoom >= 4.0.0",
       "Avalonia.Desktop >= 0.10.7",
       "Avalonia.Diagnostics >= 0.10.7",
-      "Avalonia.ReactiveUI >= 0.10.7",
-      "PanAndZoom >= 3.0.0-preview6"
+      "Avalonia.ReactiveUI >= 0.10.7"
     ]
   },
   "packageFolders": {
@@ -4221,6 +4226,10 @@
             "target": "Package",
             "version": "[0.10.7, )"
           },
+          "Avalonia.Controls.PanAndZoom": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
           "Avalonia.Desktop": {
             "target": "Package",
             "version": "[0.10.7, )"
@@ -4232,10 +4241,6 @@
           "Avalonia.ReactiveUI": {
             "target": "Package",
             "version": "[0.10.7, )"
-          },
-          "PanAndZoom": {
-            "target": "Package",
-            "version": "[3.0.0-preview6, )"
           }
         },
         "imports": [

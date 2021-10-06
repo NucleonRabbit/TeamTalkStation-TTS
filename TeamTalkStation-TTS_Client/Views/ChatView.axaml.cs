@@ -1,18 +1,16 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using TeamTalkStation_TTS_Client.Controls;
+using Avalonia.ReactiveUI;
+using TeamTalkStation_TTS_Client.ViewModels;
 
-namespace TeamTalkStation_TTS_Client.Views
+namespace Bellow.Client.Views
 {
-    public partial class MainWindow : Window
+    public class ChatView : ReactiveUserControl<ChatViewModel>
     {
-        public MainWindow()
+        public ChatView()
         {
             InitializeComponent();
-#if DEBUG
-            this.AttachDevTools();
-#endif
         }
 
         private void InitializeComponent()

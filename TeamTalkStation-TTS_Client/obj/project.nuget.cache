@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Taadxg7R9WLTpepfS6p8o8WiMH/zd4BP1iwaadbYMvxSAF3Iha+uEu9Nl7DXCyqxR2dZwtv8XYU0LdMkfIF90Q==",
+  "dgSpecHash": "gjR43wkeTxBiJEjXe6i2Ehl1aJ7vki8gFj12VmfVuyA7TkJi1GxYteIZMb65Il+5VhL3EpIyOepaxj8LpB/y5w==",
   "success": true,
   "projectFilePath": "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
   "expectedPackageFiles": [
     "/home/nucleon14/.nuget/packages/avalonia/0.10.7/avalonia.0.10.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2020091801/avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.controls.datagrid/0.10.7/avalonia.controls.datagrid.0.10.7.nupkg.sha512",
+    "/home/nucleon14/.nuget/packages/avalonia.controls.panandzoom/4.0.0/avalonia.controls.panandzoom.4.0.0.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.desktop/0.10.7/avalonia.desktop.0.10.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.diagnostics/0.10.7/avalonia.diagnostics.0.10.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.freedesktop/0.10.7/avalonia.freedesktop.0.10.7.nupkg.sha512",
@@ -29,7 +30,6 @@
     "/home/nucleon14/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/microsoft.win32.systemevents/4.5.0/microsoft.win32.systemevents.4.5.0.nupkg.sha512",
-    "/home/nucleon14/.nuget/packages/panandzoom/3.0.0-preview6/panandzoom.3.0.0-preview6.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/reactiveui/13.2.10/reactiveui.13.2.10.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/skiasharp.nativeassets.linux/2.80.2/skiasharp.nativeassets.linux.2.80.2.nupkg.sha512",
