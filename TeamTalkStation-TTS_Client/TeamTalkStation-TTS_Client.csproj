@@ -7,6 +7,7 @@
     <ItemGroup>
         <Folder Include="Libraries" />
         <Folder Include="Models\" />
+        <EmbeddedResource Include="Assets\PingFang.ttf" />
         <AvaloniaResource Include="Assets\**" />
     </ItemGroup>
     <ItemGroup>
