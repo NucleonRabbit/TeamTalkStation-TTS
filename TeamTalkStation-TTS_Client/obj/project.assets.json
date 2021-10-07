@@ -316,56 +316,6 @@
           "lib/netstandard1.0/JetBrains.Annotations.dll": {}
         }
       },
-      "Material.Avalonia/2.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Avalonia": "0.10.7",
-          "Avalonia.Controls.DataGrid": "0.10.1",
-          "Material.Icons": "1.0.8",
-          "Material.Icons.Avalonia": "1.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/Material.Avalonia.dll": {},
-          "lib/netstandard2.0/Material.Colors.dll": {},
-          "lib/netstandard2.0/Material.DataGrid.dll": {},
-          "lib/netstandard2.0/Material.Dialog.dll": {},
-          "lib/netstandard2.0/Material.Ripple.dll": {},
-          "lib/netstandard2.0/Material.Styles.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Material.Avalonia.dll": {},
-          "lib/netstandard2.0/Material.Colors.dll": {},
-          "lib/netstandard2.0/Material.DataGrid.dll": {},
-          "lib/netstandard2.0/Material.Dialog.dll": {},
-          "lib/netstandard2.0/Material.Ripple.dll": {},
-          "lib/netstandard2.0/Material.Styles.dll": {}
-        }
-      },
-      "Material.Icons/1.0.8": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/Material.Icons.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Material.Icons.dll": {}
-        }
-      },
-      "Material.Icons.Avalonia/1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Avalonia": "0.10.0",
-          "Material.Icons": "1.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/Material.Icons.Avalonia.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Material.Icons.Avalonia.dll": {}
-        }
-      },
       "Microsoft.CodeAnalysis.Analyzers/2.9.6": {
         "type": "package",
         "build": {
@@ -654,15 +604,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "ReactiveUI/13.2.10": {
@@ -1668,47 +1609,6 @@
         "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/JetBrains.Annotations.xml"
       ]
     },
-    "Material.Avalonia/2.4.0": {
-      "sha512": "S0MgbVnF7NFeo95xNKMcHAtcvzv6A5duYP8HcSaIOTfvYVsgjDFsNR5WgkDi16M9N2pkKRDk9IsowSCzcWvJpw==",
-      "type": "package",
-      "path": "material.avalonia/2.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Material.Avalonia.dll",
-        "lib/netstandard2.0/Material.Colors.dll",
-        "lib/netstandard2.0/Material.DataGrid.dll",
-        "lib/netstandard2.0/Material.Dialog.dll",
-        "lib/netstandard2.0/Material.Ripple.dll",
-        "lib/netstandard2.0/Material.Styles.dll",
-        "material.avalonia.2.4.0.nupkg.sha512",
-        "material.avalonia.nuspec"
-      ]
-    },
-    "Material.Icons/1.0.8": {
-      "sha512": "RokMNxvpVAqF4uru0O4e9VxO6dJbdbOwi7Jjon4t6CnDCiNh5Z5B0CkTfkKNXTbs0qg9etdr45XkK0tUdD4EcQ==",
-      "type": "package",
-      "path": "material.icons/1.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Material.Icons.dll",
-        "material.icons.1.0.8.nupkg.sha512",
-        "material.icons.nuspec"
-      ]
-    },
-    "Material.Icons.Avalonia/1.0.2": {
-      "sha512": "hK0MQm2XyPwjT+DiviDOBjrJVQe6V0u+XTDVbxohkq58hUBlq0XZXmHHZ27jUJU6ZVP9ybu44aXfWycbVjnY2A==",
-      "type": "package",
-      "path": "material.icons.avalonia/1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Material.Icons.Avalonia.dll",
-        "material.icons.avalonia.1.0.2.nupkg.sha512",
-        "material.icons.avalonia.nuspec"
-      ]
-    },
     "Microsoft.CodeAnalysis.Analyzers/2.9.6": {
       "sha512": "Kmms3TxGQMNb95Cu/3K+0bIcMnV4qf/phZBLAB0HUi65rBPxP4JO3aM2LoAcb+DFS600RQJMZ7ZLyYDTbLwJOQ==",
       "type": "package",
@@ -2026,37 +1926,6 @@
         "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "type": "package",
-      "path": "newtonsoft.json/12.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
       ]
     },
     "ReactiveUI/13.2.10": {
@@ -4313,8 +4182,7 @@
       "Avalonia.Controls.PanAndZoom >= 4.0.0",
       "Avalonia.Desktop >= 0.10.7",
       "Avalonia.Diagnostics >= 0.10.7",
-      "Avalonia.ReactiveUI >= 0.10.7",
-      "Material.Avalonia >= 2.4.0"
+      "Avalonia.ReactiveUI >= 0.10.7"
     ]
   },
   "packageFolders": {
@@ -4373,10 +4241,6 @@
           "Avalonia.ReactiveUI": {
             "target": "Package",
             "version": "[0.10.7, )"
-          },
-          "Material.Avalonia": {
-            "target": "Package",
-            "version": "[2.4.0, )"
           }
         },
         "imports": [

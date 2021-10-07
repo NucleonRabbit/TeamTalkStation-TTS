@@ -12,8 +12,7 @@
           "Avalonia.Controls.PanAndZoom": "4.0.0",
           "Avalonia.Desktop": "0.10.7",
           "Avalonia.Diagnostics": "0.10.7",
-          "Avalonia.ReactiveUI": "0.10.7",
-          "Material.Avalonia": "2.4.0"
+          "Avalonia.ReactiveUI": "0.10.7"
         },
         "runtime": {
           "TeamTalkStation-TTS_Client.dll": {}
@@ -352,63 +351,6 @@
           }
         }
       },
-      "Material.Avalonia/2.4.0": {
-        "dependencies": {
-          "Avalonia": "0.10.7",
-          "Avalonia.Controls.DataGrid": "0.10.7",
-          "Material.Icons": "1.0.8",
-          "Material.Icons.Avalonia": "1.0.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Material.Avalonia.dll": {
-            "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.4.0.0"
-          },
-          "lib/netstandard2.0/Material.Colors.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/netstandard2.0/Material.DataGrid.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/netstandard2.0/Material.Dialog.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
-          },
-          "lib/netstandard2.0/Material.Ripple.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/netstandard2.0/Material.Styles.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Material.Icons/1.0.8": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Material.Icons.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
-          }
-        }
-      },
-      "Material.Icons.Avalonia/1.0.2": {
-        "dependencies": {
-          "Avalonia": "0.10.7",
-          "Material.Icons": "1.0.8"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Material.Icons.Avalonia.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Microsoft.CodeAnalysis.Analyzers/2.9.6": {},
       "Microsoft.CodeAnalysis.Common/3.4.0": {
         "dependencies": {
@@ -665,14 +607,6 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.6.26515.6"
-          }
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.3.23909"
           }
         }
       },
@@ -1144,27 +1078,6 @@
       "path": "jetbrains.annotations/10.3.0",
       "hashPath": "jetbrains.annotations.10.3.0.nupkg.sha512"
     },
-    "Material.Avalonia/2.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-S0MgbVnF7NFeo95xNKMcHAtcvzv6A5duYP8HcSaIOTfvYVsgjDFsNR5WgkDi16M9N2pkKRDk9IsowSCzcWvJpw==",
-      "path": "material.avalonia/2.4.0",
-      "hashPath": "material.avalonia.2.4.0.nupkg.sha512"
-    },
-    "Material.Icons/1.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-RokMNxvpVAqF4uru0O4e9VxO6dJbdbOwi7Jjon4t6CnDCiNh5Z5B0CkTfkKNXTbs0qg9etdr45XkK0tUdD4EcQ==",
-      "path": "material.icons/1.0.8",
-      "hashPath": "material.icons.1.0.8.nupkg.sha512"
-    },
-    "Material.Icons.Avalonia/1.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hK0MQm2XyPwjT+DiviDOBjrJVQe6V0u+XTDVbxohkq58hUBlq0XZXmHHZ27jUJU6ZVP9ybu44aXfWycbVjnY2A==",
-      "path": "material.icons.avalonia/1.0.2",
-      "hashPath": "material.icons.avalonia.1.0.2.nupkg.sha512"
-    },
     "Microsoft.CodeAnalysis.Analyzers/2.9.6": {
       "type": "package",
       "serviceable": true,
@@ -1227,13 +1140,6 @@
       "sha512": "sha512-LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
       "path": "microsoft.win32.systemevents/4.5.0",
       "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
-    },
-    "Newtonsoft.Json/12.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "path": "newtonsoft.json/12.0.3",
-      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "ReactiveUI/13.2.10": {
       "type": "package",

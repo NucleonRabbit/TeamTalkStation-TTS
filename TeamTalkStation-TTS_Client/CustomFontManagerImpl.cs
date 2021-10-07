@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -8,23 +9,25 @@ using SkiaSharp;
 
 namespace TeamTalkStation_TTS_Client
 {
-    public class CustomFontManager : IFontManagerImpl
+    public class CustomFontManagerImpl : IFontManagerImpl
     {
         private readonly Typeface[] _customTypefaces;
         private readonly string _defaultFamilyName;
 
         //Load font resources in the project, you can load multiple font resources
         private readonly Typeface _defaultTypeface =
-            new Typeface("resm:TeamTalkStation_TTS_Client.Assets.PingFang#PF");
+            new Typeface("resm:TeamTalkStation_TTS_Client.Assets.PingFang.ttf#PF");
 
-        public CustomFontManager()
+        public CustomFontManagerImpl()
         {
             _customTypefaces = new[] { _defaultTypeface };
             _defaultFamilyName = _defaultTypeface.FontFamily.FamilyNames.PrimaryFamilyName;
+            Console.WriteLine(_defaultTypeface.FontFamily.FamilyNames.PrimaryFamilyName);
         }
 
         public string GetDefaultFontFamilyName()
         {
+            Console.WriteLine(_defaultFamilyName);
             return _defaultFamilyName;
         }
 
@@ -66,14 +69,22 @@ namespace TeamTalkStation_TTS_Client
             {
                 case FontFamily.DefaultFontFamilyName:
                 case "PF":  //font family name
-                    skTypeface = SKTypeface.FromFamilyName(_defaultTypeface.FontFamily.Name); break;
+                    skTypeface = SKTypeface.FromFamilyName(_defaultTypeface.FontFamily.Name);
+                    Console.WriteLine(_defaultTypeface.FontFamily.Name);
+                    break;
                 default:
-                    skTypeface = SKTypeface.FromFamilyName(typeface.FontFamily.Name,
+                    skTypeface = SKTypeface.FromFamilyName("DejaVu Sans",
                         (SKFontStyleWeight)typeface.Weight, SKFontStyleWidth.Normal, (SKFontStyleSlant)typeface.Style);
+                        Console.WriteLine(typeface.FontFamily.Name);
+                        Console.WriteLine(typeface.Weight);
+                        Console.WriteLine(typeface.Style);
                     break;
             }
 
-            return new GlyphTypefaceImpl(skTypeface);
+
+            SKTypeface SKT = SKTypeface.FromFamilyName("PF");
+            
+            return new GlyphTypefaceImpl(SKT);
         }
     }
 }

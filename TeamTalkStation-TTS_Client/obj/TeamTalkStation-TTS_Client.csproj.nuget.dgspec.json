@@ -57,10 +57,6 @@
             "Avalonia.ReactiveUI": {
               "target": "Package",
               "version": "[0.10.7, )"
-            },
-            "Material.Avalonia": {
-              "target": "Package",
-              "version": "[2.4.0, )"
             }
           },
           "imports": [
