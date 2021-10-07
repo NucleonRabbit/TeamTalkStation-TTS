@@ -15,7 +15,7 @@ namespace TeamTalkStation_TTS_Client
 
         //Load font resources in the project, you can load multiple font resources
         private readonly Typeface _defaultTypeface =
-            new Typeface("resm:TeamTalkStation_TTS_Client.Assets.Fonts.PingFang#PF");
+            new Typeface("resm:TeamTalkStation_TTS_Client.Assets.PingFang#PF");
 
         public CustomFontManager()
         {
