@@ -3,6 +3,7 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.ReactiveUI;
 
+
 namespace TeamTalkStation_TTS_Client
 {
     class Program

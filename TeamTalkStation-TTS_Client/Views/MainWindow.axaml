@@ -17,15 +17,15 @@
 
     <Grid>
         <StackPanel>
-            
-            <c:ChatBubble Content="aaaaaaaaaaaaaaaaa" Role="Receiver" IsRead="True" />
-            <c:ChatBubble Content="aaaaaaaaaaaaaaaaa" Role="Receiver" IsRead="True" />
-            <c:ChatBubble Content="aaaaaaaaaaaaaaaaa" Role="Sender" IsRead="True" />
-            <c:ChatBubble Content="aaaaaaaaaaaaaaaaa" Role="Sender" IsRead="True" />
-            <c:ChatBubble Content="aaaaaaaaaaaaaaaaa" Role="Sender" IsRead="True" />
-            <c:ChatBubble Content="aaaaaaaaaaaaaaaaa" Role="Sender" IsRead="True" />
-            
-            
+        
+            <c:ChatBubble Content="Hello" Role="Receiver" IsRead="True" />
+            <c:ChatBubble Content="How are you?" Role="Receiver" IsRead="True" />
+            <c:ChatBubble Content="I'm fine,thank you." Role="Sender" IsRead="True" />
+            <c:ChatBubble Content="How are you too?" Role="Sender" IsRead="True" />
+            <c:ChatBubble Content="Fine." Role="Sender" IsRead="True" />
+            <c:ChatBubble Content="awa" Role="Receiver" IsRead="True" />
+        
+        
         </StackPanel>
     </Grid>
     
