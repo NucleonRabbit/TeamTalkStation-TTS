@@ -26,7 +26,7 @@ namespace TeamTalkStation_TTS_Client
 
 
             //Locator.CurrentMutable.RegisterConstant<IScreen>(RxApp.SuspensionHost.GetAppState<MainWindowViewModel>());
-            Locator.CurrentMutable.Register<IViewFor<ChatViewModel>>(() => new ChatView());
+            // Locator.CurrentMutable.Register<IViewFor<ChatViewModel>>(() => new ChatView());
             
             if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {

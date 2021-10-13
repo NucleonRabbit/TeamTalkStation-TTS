@@ -1,0 +1,69 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="120"
+             Height="120"
+             xmlns:mi="using:Material.Icons.Avalonia"
+             x:Class="TeamTalkStation_TTS_Client.Controls.ChatMessageInputBox">
+    
+    <Viewbox  Height="120">
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" MaxWidth="600">
+            
+            <!-- <Grid.ColumnDefinitions> -->
+            <!--     <ColumnDefinition Width="*"/> -->
+            <!--     <ColumnDefinition Width="*"/> -->
+            <!--     <ColumnDefinition Width="*"/> -->
+            <!--     <ColumnDefinition Width="*"/> -->
+            <!--     <ColumnDefinition Width="*"/> -->
+            <!-- </Grid.ColumnDefinitions> -->
+            
+            <Button 
+                    Height="120">
+                <Button.Content>
+                    <mi:MaterialIcon 
+                        Height="30"
+                        Width="30"
+                        Kind="Microphone"/>
+                </Button.Content>
+            </Button>
+        
+        
+            <TextBox Watermark="Type message here..."
+                     TextWrapping="Wrap"
+                     AcceptsReturn="True"
+                     VerticalContentAlignment="Top"/>
+            
+            
+            
+            <Button Height="120">
+                <Button.Content>
+                    <mi:MaterialIcon Kind="Send" Height="30" Width="30"/>
+                </Button.Content>
+            </Button>
+                    
+                    
+            <Button Height="120">
+                <Button.Content>
+                    <mi:MaterialIcon Kind="FileSend" Height="30" Width="30"/>
+                </Button.Content>
+            </Button>
+            
+            
+            <Button 
+                    Height="120">
+                <Button.Content>
+                    <mi:MaterialIcon Kind="StickerEmoji" Height="30" Width="30"/>
+                </Button.Content>
+            </Button>
+            
+            
+            
+        </StackPanel>
+        
+        
+        
+    </Viewbox>
+    
+</UserControl>

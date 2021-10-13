@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TT/Korm+l46X8cl3quxTL+w8j3y19/ELmOZMThgRG56B/4DotfiIoNi9Hf8yV5II+wxBvvJTNyxF5GfY3u0mhg==",
+  "dgSpecHash": "6N/MpGsrO4mJk2Fb+ZPCRrcixojjoDNFXCKmlEkXIZitsMmVtkfbJl69NcTZVfpjgBi7/v652wEYsEa54MaFNA==",
   "success": true,
   "projectFilePath": "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
   "expectedPackageFiles": [
@@ -18,9 +18,12 @@
     "/home/nucleon14/.nuget/packages/avalonia.win32/0.10.7/avalonia.win32.0.10.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.x11/0.10.7/avalonia.x11.0.10.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/dynamicdata/7.1.1/dynamicdata.7.1.1.nupkg.sha512",
+    "/home/nucleon14/.nuget/packages/fluentavaloniaui/1.1.3/fluentavaloniaui.1.1.3.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/harfbuzzsharp/2.6.1.7/harfbuzzsharp.2.6.1.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/harfbuzzsharp.nativeassets.linux/2.6.1.7/harfbuzzsharp.nativeassets.linux.2.6.1.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/jetbrains.annotations/10.3.0/jetbrains.annotations.10.3.0.nupkg.sha512",
+    "/home/nucleon14/.nuget/packages/material.icons/1.0.2/material.icons.1.0.2.nupkg.sha512",
+    "/home/nucleon14/.nuget/packages/material.icons.avalonia/1.0.2/material.icons.avalonia.1.0.2.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/microsoft.codeanalysis.analyzers/2.9.6/microsoft.codeanalysis.analyzers.2.9.6.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/microsoft.codeanalysis.common/3.4.0/microsoft.codeanalysis.common.3.4.0.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/microsoft.codeanalysis.csharp/3.4.0/microsoft.codeanalysis.csharp.3.4.0.nupkg.sha512",
@@ -30,6 +33,7 @@
     "/home/nucleon14/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/microsoft.win32.systemevents/4.5.0/microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "/home/nucleon14/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/reactiveui/13.2.10/reactiveui.13.2.10.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/skiasharp.nativeassets.linux/2.80.2/skiasharp.nativeassets.linux.2.80.2.nupkg.sha512",

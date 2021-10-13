@@ -9,6 +9,17 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
+            "program": "${workspaceFolder}/TeamTalkStation-TTS_Client/bin/Debug/net6.0/TeamTalkStation-TTS_Client.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/TeamTalkStation-TTS_Client",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
             "program": "${workspaceFolder}/TeamTalkStation-TTS_Client/bin/Debug/net5.0/TeamTalkStation-TTS_Client.dll",
             "args": [],
             "cwd": "${workspaceFolder}/TeamTalkStation-TTS_Client",

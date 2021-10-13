@@ -6,6 +6,8 @@
         <entry key="TeamTalkStation-TTS_Client/App.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/CharBubbleForReceiver.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/ChatBubbleForSender.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Controls/ChatInputBox.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Controls/ChatMessageInputBox.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Styles/ChatBubble.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Styles/ChatBubble_PART_Tail.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Styles/ListBoxItem_PART_ContentPresenter.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />

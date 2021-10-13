@@ -12,7 +12,9 @@
           "Avalonia.Controls.PanAndZoom": "4.0.0",
           "Avalonia.Desktop": "0.10.7",
           "Avalonia.Diagnostics": "0.10.7",
-          "Avalonia.ReactiveUI": "0.10.7"
+          "Avalonia.ReactiveUI": "0.10.7",
+          "FluentAvaloniaUI": "1.1.3",
+          "Material.Icons.Avalonia": "1.0.2"
         },
         "runtime": {
           "TeamTalkStation-TTS_Client.dll": {}
@@ -280,6 +282,19 @@
           }
         }
       },
+      "FluentAvaloniaUI/1.1.3": {
+        "dependencies": {
+          "Avalonia": "0.10.7",
+          "Avalonia.Desktop": "0.10.7",
+          "Avalonia.Diagnostics": "0.10.7"
+        },
+        "runtime": {
+          "lib/net5.0/FluentAvalonia.dll": {
+            "assemblyVersion": "1.1.3.0",
+            "fileVersion": "1.1.3.0"
+          }
+        }
+      },
       "HarfBuzzSharp/2.6.1.7": {
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -348,6 +363,29 @@
           "lib/netstandard1.0/JetBrains.Annotations.dll": {
             "assemblyVersion": "10.3.0.0",
             "fileVersion": "10.3.0.0"
+          }
+        }
+      },
+      "Material.Icons/1.0.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Material.Icons.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Material.Icons.Avalonia/1.0.2": {
+        "dependencies": {
+          "Avalonia": "0.10.7",
+          "Material.Icons": "1.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Material.Icons.Avalonia.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -607,6 +645,14 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
           }
         }
       },
@@ -1057,6 +1103,13 @@
       "path": "dynamicdata/7.1.1",
       "hashPath": "dynamicdata.7.1.1.nupkg.sha512"
     },
+    "FluentAvaloniaUI/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SKobR7BxnOc2eZ/b+jWXRDDtCK0wqJVTn5zplkgJhaQN3re99RSD0KYtcOqTSnfotzE9SbN4D1mWkorCo18xiQ==",
+      "path": "fluentavaloniaui/1.1.3",
+      "hashPath": "fluentavaloniaui.1.1.3.nupkg.sha512"
+    },
     "HarfBuzzSharp/2.6.1.7": {
       "type": "package",
       "serviceable": true,
@@ -1077,6 +1130,20 @@
       "sha512": "sha512-0GLU9lwGVXjUNlr9ZIdAgjqLI2Zm/XFGJFaqJ1T1sU+kwfeMLhm68+rblUrNUP9psRl4i8yM7Ghb4ia4oI2E5g==",
       "path": "jetbrains.annotations/10.3.0",
       "hashPath": "jetbrains.annotations.10.3.0.nupkg.sha512"
+    },
+    "Material.Icons/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4UIT91QbedjNfUYU+R3T60U+InozFtIsP1iUzGbkq/G0f1eDE3tXMWUuLEDO3yCEP2MHrPjAOpokwqk1rnWNGA==",
+      "path": "material.icons/1.0.2",
+      "hashPath": "material.icons.1.0.2.nupkg.sha512"
+    },
+    "Material.Icons.Avalonia/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hK0MQm2XyPwjT+DiviDOBjrJVQe6V0u+XTDVbxohkq58hUBlq0XZXmHHZ27jUJU6ZVP9ybu44aXfWycbVjnY2A==",
+      "path": "material.icons.avalonia/1.0.2",
+      "hashPath": "material.icons.avalonia.1.0.2.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Analyzers/2.9.6": {
       "type": "package",
@@ -1140,6 +1207,13 @@
       "sha512": "sha512-LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
       "path": "microsoft.win32.systemevents/4.5.0",
       "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "ReactiveUI/13.2.10": {
       "type": "package",

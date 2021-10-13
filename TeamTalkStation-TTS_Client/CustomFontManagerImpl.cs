@@ -73,7 +73,7 @@ namespace TeamTalkStation_TTS_Client
                     Console.WriteLine(_defaultTypeface.FontFamily.Name);
                     break;
                 default:
-                    skTypeface = SKTypeface.FromFamilyName("DejaVu Sans",
+                    skTypeface = SKTypeface.FromFamilyName("PingFang SC",
                         (SKFontStyleWeight)typeface.Weight, SKFontStyleWidth.Normal, (SKFontStyleSlant)typeface.Style);
                         Console.WriteLine(typeface.FontFamily.Name);
                         Console.WriteLine(typeface.Weight);
@@ -82,8 +82,8 @@ namespace TeamTalkStation_TTS_Client
             }
 
 
-            SKTypeface SKT = SKTypeface.FromFamilyName("PF");
-            
+            SKTypeface SKT = SKTypeface.FromFamilyName("DejaVu Sans");
+
             return new GlyphTypefaceImpl(SKT);
         }
     }

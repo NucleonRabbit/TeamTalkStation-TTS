@@ -1,7 +1,7 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:TeamTalkStation_TTS_Client.ViewModels"
-        xmlns:c="clr-namespace:TeamTalkStation_TTS_Client.Controls"
+        xmlns:controls="clr-namespace:TeamTalkStation_TTS_Client.Controls"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
@@ -15,19 +15,26 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <Grid>
-        <StackPanel>
+    <StackPanel Orientation="Vertical">
         
-            <c:ChatBubble Content="Hello" Role="Receiver" IsRead="True" />
-            <c:ChatBubble Content="How are you?" Role="Receiver" IsRead="True" />
-            <c:ChatBubble Content="I'm fine,thank you." Role="Sender" IsRead="True" />
-            <c:ChatBubble Content="How are you too?" Role="Sender" IsRead="True" />
-            <c:ChatBubble Content="Fine." Role="Sender" IsRead="True" />
-            <c:ChatBubble Content="awa" Role="Receiver" IsRead="True" />
+      
+        
+        <StackPanel Orientation="Vertical">
+        
+            <controls:ChatBubble Content="Hello" Role="Receiver" IsRead="True" />
+            <controls:ChatBubble Content="How are you?" Role="Receiver" IsRead="True" />
+            <controls:ChatBubble Content="I'm fine,thank you." Role="Sender" IsRead="True" />
+            <controls:ChatBubble Content="How are you too?" Role="Sender" IsRead="True" />
+            <controls:ChatBubble Content="Fine." Role="Receiver" IsRead="True" />
+            <controls:ChatBubble Content="awa" Role="Receiver" IsRead="True" />
+            
+            
         
         
         </StackPanel>
-    </Grid>
+        
+        <controls:ChatMessageInputBox/>
+    </StackPanel>
     
     
 </Window>
