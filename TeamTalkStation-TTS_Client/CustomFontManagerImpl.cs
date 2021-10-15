@@ -16,7 +16,7 @@ namespace TeamTalkStation_TTS_Client
 
         //Load font resources in the project, you can load multiple font resources
         private readonly Typeface _defaultTypeface =
-            new Typeface("resm:TeamTalkStation_TTS_Client.Assets.PingFang.ttf#PF");
+            new Typeface("resm:TeamTalkStation_TTS_Client.Assets.PingFang.ttf#PingFang SC");
 
         public CustomFontManagerImpl()
         {
@@ -68,12 +68,12 @@ namespace TeamTalkStation_TTS_Client
             switch (typeface.FontFamily.Name)
             {
                 case FontFamily.DefaultFontFamilyName:
-                case "PF":  //font family name
+                case "PingFang SC":  //font family name
                     skTypeface = SKTypeface.FromFamilyName(_defaultTypeface.FontFamily.Name);
                     Console.WriteLine(_defaultTypeface.FontFamily.Name);
                     break;
                 default:
-                    skTypeface = SKTypeface.FromFamilyName("PingFang SC",
+                    skTypeface = SKTypeface.FromFamilyName("PingFang SC",//typeface.FontFamily.Name,
                         (SKFontStyleWeight)typeface.Weight, SKFontStyleWidth.Normal, (SKFontStyleSlant)typeface.Style);
                         Console.WriteLine(typeface.FontFamily.Name);
                         Console.WriteLine(typeface.Weight);
@@ -81,10 +81,9 @@ namespace TeamTalkStation_TTS_Client
                     break;
             }
 
+            
 
-            SKTypeface SKT = SKTypeface.FromFamilyName("DejaVu Sans");
-
-            return new GlyphTypefaceImpl(SKT);
+            return new GlyphTypefaceImpl(skTypeface);
         }
     }
 }

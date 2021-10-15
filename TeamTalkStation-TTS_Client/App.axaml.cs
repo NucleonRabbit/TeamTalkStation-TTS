@@ -35,7 +35,9 @@ namespace TeamTalkStation_TTS_Client
                     DataContext = new MainWindowViewModel(),
                 };
             }
-
+            
+            //Avalonia.Input.TextInput.
+            
             base.OnFrameworkInitializationCompleted();
         }
         

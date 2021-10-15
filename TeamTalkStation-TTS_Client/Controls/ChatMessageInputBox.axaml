@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="120"
              Height="120"
+             FontFamily="PingFang SC"
              xmlns:mi="using:Material.Icons.Avalonia"
              x:Class="TeamTalkStation_TTS_Client.Controls.ChatMessageInputBox">
     
@@ -33,6 +34,7 @@
             <TextBox Watermark="Type message here..."
                      TextWrapping="Wrap"
                      AcceptsReturn="True"
+                     FontFamily="PingFang SC"
                      VerticalContentAlignment="Top"/>
             
             

@@ -1,6 +1,7 @@
 ﻿using System;
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
+using Avalonia.Extensions.Controls;
 using Avalonia.ReactiveUI;
 
 
@@ -18,6 +19,8 @@ namespace TeamTalkStation_TTS_Client
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
+                .UseDoveExtensions()
+                .UseChineseInputSupport()
                 .LogToTrace()
                 .UseReactiveUI();
     }

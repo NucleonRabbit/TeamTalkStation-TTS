@@ -9,12 +9,15 @@
 /home/nucleon14/.nuget/packages/avalonia.diagnostics/0.10.7/lib/netstandard2.0/Avalonia.Diagnostics.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.Dialogs.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.dll
+/home/nucleon14/.nuget/packages/dove.avalonia.controls.extensions.chineseinputsupoort/1.0.5/lib/netstandard2.1/Avalonia.Extensions.Chinese.dll
+/home/nucleon14/.nuget/packages/dove.avalonia.controls.extensions/1.4.7/lib/netstandard2.1/Avalonia.Extensions.Controls.dll
 /home/nucleon14/.nuget/packages/avalonia.freedesktop/0.10.7/lib/netstandard2.0/Avalonia.FreeDesktop.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.Input.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.Interactivity.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.Layout.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.Markup.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.Markup.Xaml.dll
+/home/nucleon14/.nuget/packages/avalonia.markup.xaml.loader/0.10.6/lib/netstandard2.0/Avalonia.Markup.Xaml.Loader.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.MicroCom.dll
 /home/nucleon14/.nuget/packages/avalonia.native/0.10.7/lib/netstandard2.0/Avalonia.Native.dll
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.OpenGL.dll
@@ -27,6 +30,7 @@
 /home/nucleon14/.nuget/packages/avalonia/0.10.7/lib/netcoreapp2.0/Avalonia.Visuals.dll
 /home/nucleon14/.nuget/packages/avalonia.win32/0.10.7/lib/netstandard2.0/Avalonia.Win32.dll
 /home/nucleon14/.nuget/packages/avalonia.x11/0.10.7/lib/netstandard2.0/Avalonia.X11.dll
+/home/nucleon14/.nuget/packages/chspinyinconv/1.0.0/lib/netstandard2.0/ChnCharInfo.dll
 /home/nucleon14/.nuget/packages/dynamicdata/7.1.1/lib/net5.0/DynamicData.dll
 /home/nucleon14/.nuget/packages/fluentavaloniaui/1.1.3/lib/net5.0/FluentAvalonia.dll
 /home/nucleon14/.nuget/packages/harfbuzzsharp/2.6.1.7/lib/netstandard2.0/HarfBuzzSharp.dll
@@ -78,7 +82,7 @@
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.0-rc.1.21451.13/ref/net6.0/System.Diagnostics.TraceSource.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.0-rc.1.21451.13/ref/net6.0/System.Diagnostics.Tracing.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.0-rc.1.21451.13/ref/net6.0/System.dll
-/home/nucleon14/.nuget/packages/system.drawing.common/4.5.0/ref/netstandard2.0/System.Drawing.Common.dll
+/home/nucleon14/.nuget/packages/system.drawing.common/5.0.2/ref/netcoreapp3.0/System.Drawing.Common.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.0-rc.1.21451.13/ref/net6.0/System.Drawing.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.0-rc.1.21451.13/ref/net6.0/System.Drawing.Primitives.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/6.0.0-rc.1.21451.13/ref/net6.0/System.Dynamic.Runtime.dll

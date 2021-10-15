@@ -111,7 +111,6 @@
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
-/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/osx/native/libSkiaSharp.dylib
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/win-arm64/native/libSkiaSharp.dll
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/win-x64/native/libSkiaSharp.dll
@@ -120,8 +119,6 @@
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/linux-arm64/native/libSkiaSharp.so
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/linux-x64/native/libSkiaSharp.so
-/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll
-/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/Debug/net6.0/TeamTalkStation-TTS_Client.csproj.AssemblyReference.cache
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/Debug/net6.0/TeamTalkStation-TTS_Client.GeneratedMSBuildEditorConfig.editorconfig
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/Debug/net6.0/TeamTalkStation-TTS_Client.AssemblyInfoInputs.cache
@@ -135,3 +132,10 @@
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/Material.Icons.Avalonia.dll
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/Newtonsoft.Json.dll
 /home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/FluentAvalonia.dll
+/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/ChnCharInfo.dll
+/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/Avalonia.Extensions.Chinese.dll
+/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/Avalonia.Markup.Xaml.Loader.dll
+/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/Avalonia.Extensions.Controls.dll
+/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll

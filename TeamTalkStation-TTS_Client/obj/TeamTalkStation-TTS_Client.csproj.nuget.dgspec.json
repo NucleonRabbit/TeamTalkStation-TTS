@@ -58,6 +58,14 @@
               "target": "Package",
               "version": "[0.10.7, )"
             },
+            "Dove.Avalonia.Controls.Extensions": {
+              "target": "Package",
+              "version": "[1.4.7, )"
+            },
+            "Dove.Avalonia.Controls.Extensions.ChineseInputSupoort": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "FluentAvaloniaUI": {
               "target": "Package",
               "version": "[1.1.3, )"
