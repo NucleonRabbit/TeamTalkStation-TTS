@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj": {}
+    "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj": {}
   },
   "projects": {
-    "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj": {
+    "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
+        "projectUniqueName": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
         "projectName": "TeamTalkStation-TTS_Client",
-        "projectPath": "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
+        "projectPath": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
         "packagesPath": "/home/nucleon14/.nuget/packages/",
-        "outputPath": "/home/nucleon14/Project/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/",
+        "outputPath": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nucleon14/.nuget/NuGet/NuGet.Config"
@@ -42,10 +42,6 @@
               "target": "Package",
               "version": "[0.10.7, )"
             },
-            "Avalonia.Controls.PanAndZoom": {
-              "target": "Package",
-              "version": "[4.0.0, )"
-            },
             "Avalonia.Desktop": {
               "target": "Package",
               "version": "[0.10.7, )"
@@ -73,6 +69,28 @@
             "Material.Icons.Avalonia": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.0.0-6.final, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Scripting": {
+              "target": "Package",
+              "version": "[4.0.0-6.final, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[4.0.0-6.final, )"
+            },
+            "Microsoft.CodeAnalysis.Scripting.Common": {
+              "target": "Package",
+              "version": "[4.0.0-6.final, )"
             }
           },
           "imports": [
@@ -90,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100-rc.1.21463.6/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100-rc.2.21505.57/RuntimeIdentifierGraph.json"
         }
       }
     }

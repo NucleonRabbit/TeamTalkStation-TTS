@@ -5,6 +5,10 @@
              xmlns:uip="using:FluentAvalonia.UI.Controls.Primitives"
              xmlns:local="using:TeamTalkStation_TTS_Client"
              x:Class="TeamTalkStation_TTS_Client.App">
+    
+    
+    
+    
     <Application.DataTemplates>
         <local:ViewLocator/>
     </Application.DataTemplates>
@@ -14,10 +18,11 @@
 
     </Application.Resources>
     
+    
 
     <Application.Styles>
-        <!-- <FluentTheme Mode="Dark"/> -->
-        <FluentTheme Mode="Light"/>
+        <FluentTheme Mode="Dark"/>
+        <!-- <FluentTheme Mode="Light"/> -->
         <!-- <StyleInclude Source="/Styles/Accents.axaml"/> -->
         <!-- <StyleInclude Source="/Styles/MessageComposer.axaml"/> -->
         <StyleInclude Source="avares://Material.Icons.Avalonia/App.xaml"/>
@@ -28,6 +33,9 @@
         <!-- <StyleInclude Source="/Controls/ChatMessageInputBox.axaml"/> -->
         <!-- <StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml" /> -->
         <!-- <StyleInclude Source="avares://Material.DataGrid/DataGrid.xaml"/> -->
-
+        
     </Application.Styles>
 </Application>
+
+
+

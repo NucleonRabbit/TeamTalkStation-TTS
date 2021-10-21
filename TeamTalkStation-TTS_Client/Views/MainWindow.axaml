@@ -4,8 +4,8 @@
         xmlns:controls="clr-namespace:TeamTalkStation_TTS_Client.Controls"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        Width="800"
+        mc:Ignorable="d" d:DesignWidth="920" d:DesignHeight="450"
+        Width="920"
         Height="450"
         x:Class="TeamTalkStation_TTS_Client.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
@@ -19,21 +19,29 @@
         
       
         
-        <StackPanel Orientation="Vertical">
-        
-            <controls:ChatBubble Content="Hello" Role="Receiver" IsRead="True" />
-            <controls:ChatBubble Content="How are you?" Role="Receiver" IsRead="True" />
-            <controls:ChatBubble Content="I'm fine,thank you." Role="Sender" IsRead="True" />
-            <controls:ChatBubble Content="How are you too?" Role="Sender" IsRead="True" />
-            <controls:ChatBubble Content="Fine." Role="Receiver" IsRead="True" />
-            <controls:ChatBubble Content="awa" Role="Receiver" IsRead="True" />
+        <DockPanel>
+            
+            <StackPanel DockPanel.Dock="Top" Orientation="Vertical">
+                
+                <controls:ChatBubble Content="Hello" Role="Receiver" IsRead="True" />
+                <controls:ChatBubble Content="How are you?" Role="Receiver" IsRead="True" />
+                <controls:ChatBubble Content="I'm fine,thank you." Role="Sender" IsRead="True" />
+                <controls:ChatBubble Content="How are you too?" Role="Sender" IsRead="True" />
+                <controls:ChatBubble Content="Fine." Role="Receiver" IsRead="True" />
+                <controls:ChatBubble Content="awa" Role="Receiver" IsRead="True" />
+
+                
+                
+            </StackPanel>
+            
+            
             
             
         
+            <controls:ChatMessageInputBox DockPanel.Dock="Bottom" />
+        </DockPanel>
         
-        </StackPanel>
-        
-        <controls:ChatMessageInputBox/>
+       
     </StackPanel>
     
     

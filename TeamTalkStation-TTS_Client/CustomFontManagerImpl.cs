@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using Avalonia.Media;
 using Avalonia.Platform;
+using TeamTalkStation_TTS_Client.GlobalVariables;
 using Avalonia.Skia;
 using SkiaSharp;
 
@@ -73,11 +74,10 @@ namespace TeamTalkStation_TTS_Client
                     Console.WriteLine(_defaultTypeface.FontFamily.Name);
                     break;
                 default:
-                    skTypeface = SKTypeface.FromFamilyName("PingFang SC",//typeface.FontFamily.Name,
+                    GlobalVariables.GlobalVariables.FontFamily = typeface.FontFamily.Name;
+                    skTypeface = SKTypeface.FromFamilyName(typeface.FontFamily.Name,//typeface.FontFamily.Name,
+                        
                         (SKFontStyleWeight)typeface.Weight, SKFontStyleWidth.Normal, (SKFontStyleSlant)typeface.Style);
-                        Console.WriteLine(typeface.FontFamily.Name);
-                        Console.WriteLine(typeface.Weight);
-                        Console.WriteLine(typeface.Style);
                     break;
             }
 

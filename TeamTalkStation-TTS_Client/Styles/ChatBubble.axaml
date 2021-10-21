@@ -46,14 +46,18 @@
                   Background="{TemplateBinding Background}"
                   CornerRadius="15"
                   Padding="10">
-            <ContentPresenter x:Name="PART_ContentPresenter"
+            <TextBlock x:Name="PART_TextBlock"
                         Background="{TemplateBinding Background}"
-                        BorderBrush="{TemplateBinding BorderBrush}"
-                        BorderThickness="{TemplateBinding BorderThickness}"
-                        Content="{TemplateBinding Content}"
-                        ContentTemplate="{TemplateBinding ContentTemplate}"
-                        HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
-                        VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}" />
+                        Focusable="True"
+                        Text="{TemplateBinding Content,Mode=TwoWay}"
+            />
+            
+            <!-- BorderBrush="{TemplateBinding BorderBrush}" -->
+            <!-- BorderThickness="{TemplateBinding BorderThickness}" -->
+            <!-- Content="{TemplateBinding Content}" -->
+            <!-- ContentTemplate="{TemplateBinding ContentTemplate}" -->
+            <!-- HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" -->
+            <!-- VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}" -->
           </Border>
 
           <Path Name="PART_IsRead"
