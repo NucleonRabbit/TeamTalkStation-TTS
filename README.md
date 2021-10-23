@@ -19,7 +19,7 @@ This project includes both server(developing) and client
 
 
 
-## Libraries Depends ## 
+## Libraries Requires ## 
 
 + Linux
 
