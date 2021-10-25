@@ -1,11 +1,61 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:controls="clr-namespace:TeamTalkStation_TTS_Client.Controls"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="TeamTalkStation_TTS_Client.Views.DoubleChatView">
     
+    <DockPanel>
+        
+        <!-- <Grid.RowDefinitions> -->
+        <!--     <RowDefinition Height="*" /> -->
+        <!--     <RowDefinition Height="400"/> -->
+        <!--     <RowDefinition Height="*"/> -->
+        <!-- </Grid.RowDefinitions> -->
+        
+
+        <Grid DockPanel.Dock="Top">
+            <controls:AvatarBarTop/>
+        </Grid>
+        
+        <!-- <GridSplitter Grid.Row="0"></GridSplitter> -->
+            
+      
+        
+        <Grid DockPanel.Dock="Bottom">
+            
+            <DockPanel>
+                <ScrollViewer Height="600" DockPanel.Dock="Top">
+           
+                    <StackPanel Orientation="Vertical">
+               
+                        <controls:ChatBubble Content="hellossssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"/>
+                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="hello"/>
+               
+                    </StackPanel>
+           
+                </ScrollViewer>
+        
+        
+                <!-- <GridSplitter ></GridSplitter> -->
+            
+                <controls:ChatMessageInputBox MaxHeight="50" DockPanel.Dock="Bottom"/>
+
+            </DockPanel>
+            
+        </Grid>
+        
+        
     
-    
-    
+    </DockPanel>
 </UserControl>
