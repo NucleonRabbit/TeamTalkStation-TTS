@@ -29,7 +29,7 @@
     <Setter Property="Foreground" Value="{DynamicResource ChatBubbleForeground}"/>
     <Setter Property="Padding" Value="10"/>
     <Setter Property="Margin" Value="10"/>
-    <Setter Property="MaxWidth" Value="280"/>
+    <Setter Property="MaxWidth" Value="800"/>
     <Setter Property="Template">
       <ControlTemplate>
         <Panel>
@@ -40,22 +40,29 @@
                 VerticalAlignment="Bottom"
                 HorizontalAlignment="{TemplateBinding HorizontalAlignment}"
                 Width="15"
-                Height="15"/>
+             />
 
           <Border Name="PART_Body"
                   Background="{TemplateBinding Background}"
                   CornerRadius="15"
                   Padding="10">
             <TextBox x:Name="PART_TextBlock"
-                        Background="{TemplateBinding Background}"
-                        Focusable="True"
-                        IsReadOnly="True"
-                        CornerRadius="0"
-                        BorderBrush="{x:Null}"
+                        Background="Transparent"
+                        AcceptsReturn="True"
+                        MaxWidth="800"
                         TextWrapping="Wrap"
+                        IsReadOnly="True"
+                        VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
+                        HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
+                        TextAlignment="Left"
+                        AcceptsTab="False"
+                         
+                        BorderBrush="{x:Null}"
                         BorderThickness="0"
                         Text="{TemplateBinding Content,Mode=TwoWay}"
             />
+            
+            
             
             <!-- BorderBrush="{TemplateBinding BorderBrush}" -->
             <!-- BorderThickness="{TemplateBinding BorderThickness}" -->

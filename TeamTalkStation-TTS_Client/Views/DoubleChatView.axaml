@@ -26,21 +26,20 @@
         <Grid DockPanel.Dock="Bottom">
             
             <DockPanel>
-                <ScrollViewer Height="600" DockPanel.Dock="Top">
+                <ScrollViewer Height="600" DockPanel.Dock="Top" Name="ChatMessageViewer" >
            
-                    <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Vertical" Name="MessagePanel">
                
-                        <controls:ChatBubble Content="hellossssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"/>
-                        <controls:ChatBubble Content="hello"/>
-                        <controls:ChatBubble Content="hello"/>
-                        <controls:ChatBubble Content="hello"/>
-                        <controls:ChatBubble Content="hello"/>
-                        <controls:ChatBubble Content="hello"/>
-                        <controls:ChatBubble Content="hello"/>
-                        <controls:ChatBubble Content="hello"/>
-                        <controls:ChatBubble Content="hello"/>
-                        <controls:ChatBubble Content="hello"/>
-                        <controls:ChatBubble Content="hello"/>
+                        <controls:ChatBubble Content="Hello" Role="Sender" IsRead="True"/>
+                        <controls:ChatBubble Content="What is your name " Role="Sender" IsRead="True"/>
+                        <controls:ChatBubble Content="My name is Nucleon14 " Role="Receiver" IsRead="True"/>
+                        <controls:ChatBubble Content="And your? " Role="Receiver" IsRead="True"/>
+                        <controls:ChatBubble Content="My name is Steve " Role="Sender" IsRead="True"/>
+                        <controls:ChatBubble Content="Can you speak Chinese " Role="Sender" IsRead="True"/>
+                        <controls:ChatBubble Content="可以 " Role="Receiver" IsRead="True"/>
+                        <controls:ChatBubble Content="我也一样 " Role="Sender" IsRead="True"/>
+                        <controls:ChatBubble Content="你今天中午吃的什么 " Role="Receiver" IsRead="True"/>
+                        <controls:ChatBubble Content="鼻屎黄瓜 " Role="Sender" IsRead="True"/>
                
                     </StackPanel>
            

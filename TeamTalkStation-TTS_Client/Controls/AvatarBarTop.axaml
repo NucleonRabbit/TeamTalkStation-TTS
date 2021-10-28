@@ -14,7 +14,7 @@
             
             
             
-            <Image Source="/Assets/Screenshot_20211023_175133.png">
+            <Image Source="/Assets/0.jpeg">
                 <Image.Clip>
                     <EllipseGeometry Rect="0,0,75,75"/>
                 </Image.Clip>
@@ -23,7 +23,7 @@
             
             <StackPanel Orientation="Vertical">
                 
-                <TextBlock FontSize="30" Foreground="White" Focusable="True" Text="Group Name"/>
+                <TextBlock FontSize="30" Foreground="White" Focusable="True" Text="Nucleon to the 14th"/>
 
                 <TextBlock FontSize="15" Text="UID: 000001"/>
             </StackPanel>

@@ -8,7 +8,7 @@
              x:Class="TeamTalkStation_TTS_Client.Controls.ChatMessageInputBox">
     
     <Border 
-            Background="Black">
+            Background="Transparent">
         <!-- <Grid ColumnDefinitions="Auto,*,Auto,Auto"> -->
 
         <Grid>
@@ -31,7 +31,8 @@
             
             <TextBox Grid.Column="1"
                      Watermark="Type message here..."
-                     TextWrapping="Wrap">
+                     AcceptsReturn="True"
+                     AcceptsTab="True">
             </TextBox>
             
             
@@ -49,7 +50,7 @@
             </Button>
             
             
-            <Button Grid.Column="4">
+            <Button Grid.Column="4" Click="Button_OnClick">
                 <Button.Content>
                     <mi:MaterialIcon Height="30" Width="30" Kind="Send"/>
                 </Button.Content>

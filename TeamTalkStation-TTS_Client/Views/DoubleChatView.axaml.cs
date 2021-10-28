@@ -6,6 +6,9 @@ namespace TeamTalkStation_TTS_Client.Views
 {
     public class DoubleChatView : UserControl
     {
+        public static StackPanel MessagePanel;
+
+        public static ScrollViewer ChatMessageViewer;
         public DoubleChatView()
         {
             InitializeComponent();
@@ -14,6 +17,11 @@ namespace TeamTalkStation_TTS_Client.Views
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
+
+
+            ChatMessageViewer = this.FindControl<ScrollViewer>("ChatMessageViewer");
+            
+            MessagePanel = this.FindControl<StackPanel>("MessagePanel");
         }
     }
 }
