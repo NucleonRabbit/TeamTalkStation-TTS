@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:views="clr-namespace:TeamTalkStation_TTS_Client.Views"
         mc:Ignorable="d" d:DesignWidth="920" d:DesignHeight="450"
-        Width="920"
+        Width="1220"
         Height="850"
         MinHeight="850"
         MinWidth="920"
@@ -18,9 +18,20 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        
+        <controls:ChatsControl Grid.Column="0"/>
+        <views:DoubleChatView Grid.Column="1"/>
+        
+    </Grid>
     
     
-    <views:DoubleChatView/>
     
     
     

@@ -48,7 +48,7 @@
         
                 <!-- <GridSplitter ></GridSplitter> -->
             
-                <controls:ChatMessageInputBox MaxHeight="50" DockPanel.Dock="Bottom"/>
+                <controls:ChatMessageInputBox MaxHeight="300" DockPanel.Dock="Bottom"/>
 
             </DockPanel>
             
