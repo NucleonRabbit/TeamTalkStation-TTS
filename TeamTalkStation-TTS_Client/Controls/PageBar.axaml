@@ -1,0 +1,68 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mi="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="TeamTalkStation_TTS_Client.Controls.PageBar">
+    
+    <Grid >
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Button Background="Transparent" BorderBrush="{x:Null}" BorderThickness="0">
+                <Button.Content>
+                    
+                    <Image Source="/Assets/0.jpeg"/>
+                    
+                </Button.Content>
+            </Button>
+        </Grid>
+        
+        
+        <Grid Grid.Row="2">
+            <Button Background="Transparent" BorderBrush="{x:Null}" BorderThickness="0">
+                <Button.Content>
+                    
+                    <mi:MaterialIcon Width="50" Height="50" Kind="Chat"/>
+                    
+                </Button.Content>
+            </Button>
+        </Grid>
+        
+        
+        <Grid Grid.Row="4">
+            <Button Background="Transparent" BorderBrush="{x:Null}" BorderThickness="0">
+                <Button.Content>
+                    <mi:MaterialIcon Width="50" Height="50" Kind="Contacts"/>
+                </Button.Content>
+            </Button>
+        </Grid>
+        
+        
+        <Grid Grid.Row="6">
+            <Button Background="Transparent" BorderBrush="{x:Null}" BorderThickness="0">
+                <Button.Content>
+                    
+                    <mi:MaterialIcon Width="50" Height="50" Kind="Search"></mi:MaterialIcon>
+                    
+                </Button.Content>
+            </Button>
+        </Grid>
+        
+        
+        
+    </Grid>
+    
+    
+</UserControl>

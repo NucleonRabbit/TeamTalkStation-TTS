@@ -21,13 +21,14 @@
     <Grid>
         
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="300"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         
-        
-        <controls:ChatsControl Grid.Column="0"/>
-        <views:DoubleChatView Grid.Column="1"/>
+        <controls:PageBar Grid.Column="0"/>
+        <controls:ChatsControl Grid.Column="1"/>
+        <views:DoubleChatView Grid.Column="2"/>
         
     </Grid>
     

@@ -15,7 +15,7 @@ namespace TeamTalkStation_TTS_Client
         public static void Main(string[] args)
         {
 
-            Modules.PlatformDetect.DetectLinux();
+            //Modules.PlatformDetect.DetectLinux();
             
             BuildAvaloniaApp()
                 .StartWithClassicDesktopLifetime(args)
@@ -26,7 +26,7 @@ namespace TeamTalkStation_TTS_Client
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
-                .With(new X11PlatformOptions{EnableMultiTouch = true,UseDBusMenu = true,EnableIme = true})
+                .With(new X11PlatformOptions {EnableMultiTouch = true, UseDBusMenu = true, EnableIme = true})
                 .LogToTrace()
                 .UseDoveExtensions()
                 .UseChineseInputSupport()
