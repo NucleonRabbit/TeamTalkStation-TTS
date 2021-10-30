@@ -14,26 +14,26 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="TeamTalkStation_TTS_Client">
 
-    <Design.DataContext>
-        <vm:MainWindowViewModel/>
-    </Design.DataContext>
+  <Design.DataContext>
+    <vm:MainWindowViewModel/>
+  </Design.DataContext>
 
-    <Grid>
-        
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="300"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        
-        <controls:PageBar Grid.Column="0"/>
-        <controls:ChatsControl Grid.Column="1"/>
-        <views:DoubleChatView Grid.Column="2"/>
-        
-    </Grid>
-    
-    
-    
-    
-    
+  <Grid>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto"/>
+      <ColumnDefinition Width="300"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+
+    <controls:PageBar Grid.Column="0"/>
+    <controls:ChatsControl Grid.Column="1"/>
+    <views:DoubleChatView Grid.Column="2"/>
+
+  </Grid>
+
+
+
+
+
 </Window>
