@@ -10,6 +10,20 @@ This project includes both server(developing) and client
 
 
 
+### TeamTalkStation-TTS_Client Effect Image
+
+
+
+
+
+![MainWindow](./TeamTalkStation-TTS_Client/EffectImages/Result000.png "MainWindow")
+
+
+
+
+
+
+
 ### TeamTalkStation-TTS Project Technology Stack ### 
 
 
