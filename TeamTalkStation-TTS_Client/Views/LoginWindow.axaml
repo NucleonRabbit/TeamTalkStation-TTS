@@ -1,0 +1,118 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="600"
+        Width="400" Height="600"
+        MinHeight="600"
+        MinWidth="400"
+        MaxWidth="400" MaxHeight="600"
+        x:Class="TeamTalkStation_TTS_Client.Views.LoginWindow"
+        Title="LoginWindow">
+    
+        
+        
+      
+                
+        <StackPanel Orientation="Vertical">
+                
+                <Grid Height="50"/>
+                
+                
+                <Image HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="150" Source="/Assets/0.jpeg">
+                        <Image.Clip>
+                            <EllipseGeometry Rect="0,0,150,150"/>
+                        </Image.Clip>
+                </Image>
+                
+                <Grid Height="100"/>
+                
+                
+                
+                
+                <Grid Height="50"/><!-- 125 -->
+                
+                
+                <Grid>
+                        <Grid.RowDefinitions>
+                                <RowDefinition Height="20"/>
+                                <RowDefinition Height="20"/>
+                                <RowDefinition Height="20"/>
+                                <RowDefinition Height="40"/>
+                                <RowDefinition Height="80"/>
+                                <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+                        
+                        <Grid Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                
+                                <TextBlock FontSize="15" Grid.Column="0" Text="User ID: " />
+                                <TextBox Grid.Column="1" Watermark="User ID"/>
+                                
+                        </Grid>
+                        
+                        
+                        
+                        
+                       
+                        
+                        
+                        
+                        <Grid Grid.Row="3">
+                                <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                
+                                <TextBlock FontSize="15" Grid.Column="0" Text="Password: " />
+                                <TextBox Grid.Column="1" PasswordChar="*" Watermark="Password"/>
+                                
+                        </Grid>
+                        
+                        
+                        <StackPanel Grid.Row="4" Orientation="Vertical">
+                                
+                                
+                                <StackPanel Orientation="Vertical">
+                                        <CheckBox Content="Remember Password"/>
+                                        <!-- <Grid Height="25"/> -->
+                                        <CheckBox Content="Auto Login"/>
+                                </StackPanel>
+                                
+                        </StackPanel>
+
+                       
+                        
+                        
+                        <StackPanel HorizontalAlignment="Center" Grid.Row="5" Orientation="Horizontal">
+                                
+                                <Button Content="Login" Background="Green"/>
+                                <Grid Width="20"/>
+                                <Button Content="Register" Background="Blue"/>
+                                <Grid Width="20"/>
+                                <Button Content="Exit" Background="Red"/>
+                                
+                        </StackPanel>
+                        
+                </Grid>
+                
+                
+                
+                
+                
+        </StackPanel>
+
+ 
+        
+        
+      
+        
+        
+      
+        
+        
+        
+</Window>

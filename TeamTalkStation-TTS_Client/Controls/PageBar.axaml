@@ -19,11 +19,15 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         
-        <Grid Grid.Row="0">
-            <Button Background="Transparent" BorderBrush="{x:Null}" BorderThickness="0">
+        <Grid Grid.Row="0" Margin="0,30,0,0">
+            <Button Background="Transparent" Height="70" BorderBrush="{x:Null}" BorderThickness="0">
                 <Button.Content>
                     
-                    <Image Source="/Assets/0.jpeg"/>
+                    <Image Width="65" Height="65" Source="/Assets/0.jpeg">
+                        <Image.Clip>
+                            <EllipseGeometry Rect="0,0,65,65"></EllipseGeometry>
+                        </Image.Clip>
+                    </Image>
                     
                 </Button.Content>
             </Button>
