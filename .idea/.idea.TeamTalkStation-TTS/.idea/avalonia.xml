@@ -11,16 +11,23 @@
         <entry key="TeamTalkStation-TTS_Client/Controls/ChatMessageInputBox.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/ChatsControl.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/ContactsControl.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Controls/ImageChatBubbleControl.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/PageBar.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/SelectableTextBlock.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Controls/SendingChatBubble.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Styles/ChatBubble.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Styles/ChatBubble_PART_Tail.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Styles/ImageChatBubble.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Styles/ListBoxItem_PART_ContentPresenter.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Styles/SelectableTextBlockLikeStyle.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Views/ChatPageView.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Views/ChatView.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Views/ContactsView.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Views/DoubleChatView.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Views/GroupChatPageView.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Views/LoginWindow.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Views/MainWindow.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Views/SearchFromServerView.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
       </map>
     </option>
   </component>

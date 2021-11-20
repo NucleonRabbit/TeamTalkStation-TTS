@@ -1,6 +1,7 @@
-<UserControl xmlns="https://github.com/avaloniaui"
+    <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="clr-namespace:TeamTalkStation_TTS_Client.ViewModels"
              xmlns:controls="clr-namespace:TeamTalkStation_TTS_Client.Controls"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
@@ -28,7 +29,8 @@
             <DockPanel>
                 <ScrollViewer Height="600" DockPanel.Dock="Top" Name="ChatMessageViewer" >
            
-                    <StackPanel Orientation="Vertical" Name="MessagePanel">
+                    <StackPanel Orientation="Vertical" Name="MessagePanel" >
+                        
                
                         <controls:ChatBubble Content="Hello" Role="Sender" IsRead="True"/>
                         <controls:ChatBubble Content="What is your name " Role="Sender" IsRead="True"/>
@@ -40,7 +42,12 @@
                         <controls:ChatBubble Content="我也一样 " Role="Sender" IsRead="True"/>
                         <controls:ChatBubble Content="你今天中午吃的什么 " Role="Receiver" IsRead="True"/>
                         <controls:ChatBubble Content="鼻屎黄瓜 " Role="Sender" IsRead="True"/>
-               
+                        
+                      
+                        <controls:ImageChatBubble Content="/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/Assets/0.jpeg"></controls:ImageChatBubble>
+
+                        
+                        <!-- <controls:ImageChatBubble Role="Sender" IsRead="True"/> -->
                     </StackPanel>
            
                 </ScrollViewer>

@@ -17,6 +17,9 @@
   <Design.DataContext>
     <vm:MainWindowViewModel/>
   </Design.DataContext>
+  
+  
+  
 
   <Grid>
 
