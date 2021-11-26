@@ -1,14 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
+using Avalonia.ReactiveUI;
+using Avalonia.Reactive;
 using System.Drawing;
+using System.Reactive;
+using System.Runtime.InteropServices;
+using TeamTalkStation_TTS_Client.Views;
 using System.Text;
+
+using System.Threading.Tasks;
+using Avalonia;
+using Avalonia.Controls;
+using ReactiveUI;
 
 namespace TeamTalkStation_TTS_Client.ViewModels
 {
-    public class MainWindowViewModel : ViewModelBase        
-    {
-        public string Greeting => "Welcome to Avalonia!";
 
-        public Bitmap MyBitmap => new Bitmap(filename: "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/Assets/0.jpeg");
+
+    public class MainWindowViewModel : ViewModelBase
+    {
+
+
+        
+        public MainWindowViewModel()
+        {
+           
+        }
+
+
+
+        public void CreateAPersonalInformationWindow()
+        {
+
+            
+            Console.WriteLine("Hello TeamTalkStation-TTS!");
+        }
+        
     }
+        
+       
+    
+    
+    
+    
+    
 }

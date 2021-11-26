@@ -51,7 +51,7 @@
             </Button>
             
             
-            <Button Grid.Column="4" Click="Button_OnClick">
+            <Button Grid.Column="4" Click="SendMessageButtonOnClick">
                 <Button.Content>
                     <mi:MaterialIcon Height="30" Width="30" Kind="Send"/>
                 </Button.Content>

@@ -32,7 +32,7 @@ namespace TeamTalkStation_TTS_Client.Controls
             
         }
 
-        private void Button_OnClick(object? sender, RoutedEventArgs e)
+        private void SendMessageButtonOnClick(object? sender, RoutedEventArgs e)
         {
 
             ChatBubble bubble = new ChatBubble();

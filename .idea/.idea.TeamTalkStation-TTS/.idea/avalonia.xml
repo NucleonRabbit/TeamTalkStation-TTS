@@ -27,6 +27,7 @@
         <entry key="TeamTalkStation-TTS_Client/Views/GroupChatPageView.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Views/LoginWindow.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Views/MainWindow.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Views/PersonalInformationWindow.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Views/SearchFromServerView.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
       </map>
     </option>
