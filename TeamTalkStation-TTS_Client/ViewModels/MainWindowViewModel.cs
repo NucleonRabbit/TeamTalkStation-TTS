@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
+using Microsoft.CodeAnalysis.Operations;
 using ReactiveUI;
 
 namespace TeamTalkStation_TTS_Client.ViewModels
@@ -20,20 +21,26 @@ namespace TeamTalkStation_TTS_Client.ViewModels
     public class MainWindowViewModel : ViewModelBase
     {
 
-
+        private ProfileEditWindow ProfileEditWindowEntity { get; set; }
         
         public MainWindowViewModel()
         {
-           
+            ProfileEditWindowEntity = new ProfileEditWindow();
         }
 
 
 
-        public void CreateAPersonalInformationWindow()
+        public void OpenProfileEditWindow()
         {
 
+            if (ProfileEditWindowEntity == null)
+            {
+                ProfileEditWindowEntity = new ProfileEditWindow();
+            }
             
-            Console.WriteLine("Hello TeamTalkStation-TTS!");
+            ProfileEditWindowEntity.Show();
+
+            ProfileEditWindowEntity = null;
         }
         
     }

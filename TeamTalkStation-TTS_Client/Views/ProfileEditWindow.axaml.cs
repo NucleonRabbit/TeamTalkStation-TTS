@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace TeamTalkStation_TTS_Client.Views
 {
-    public class PersonalInformationWindow : Window
+    public class ProfileEditWindow : Window
     {
-        public PersonalInformationWindow()
+        public ProfileEditWindow()
         {
             InitializeComponent();
 #if DEBUG
