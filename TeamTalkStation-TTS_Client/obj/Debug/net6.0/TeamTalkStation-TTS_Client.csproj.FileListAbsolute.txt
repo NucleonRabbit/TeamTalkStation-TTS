@@ -138,3 +138,4 @@
 /home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/Debug/net6.0/ref/TeamTalkStation-TTS_Client.dll
 /home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/Debug/net6.0/TeamTalkStation-TTS_Client.pdb
 /home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/Debug/net6.0/TeamTalkStation-TTS_Client.genruntimeconfig.cache
+/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/bin/Debug/net6.0/AvaloniaEdit.dll

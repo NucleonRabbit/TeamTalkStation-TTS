@@ -14,11 +14,8 @@
             
             
             
-            <Image Source="/Assets/0.jpeg">
-                <Image.Clip>
-                    <EllipseGeometry Rect="0,0,75,75"/>
-                </Image.Clip>
-            </Image>
+            <Image Source="/Assets/0.jpeg" Height="75" Width="75"/>
+                
             
             
             <StackPanel Orientation="Vertical">

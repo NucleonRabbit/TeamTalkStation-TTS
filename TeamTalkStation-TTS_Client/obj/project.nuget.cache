@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oWtZINz7aREq/TBqdNftoAfKCeT1vscdcaGtJJr2kwmF+v5dVnldwe9ZscT5zqlPIwfzXzXB4uU4JUR3bFmbxg==",
+  "dgSpecHash": "WX7wGksDyDhDMvPHGbnyoFwKV57aLQKDMCxNuE2IruNFjGlf/VjME3w7cGOEc+vuYXRBuPeDauc16NT1BZUBAg==",
   "success": true,
   "projectFilePath": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
   "expectedPackageFiles": [
     "/home/nucleon14/.nuget/packages/avalonia/0.10.7/avalonia.0.10.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2020091801/avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512",
+    "/home/nucleon14/.nuget/packages/avalonia.avaloniaedit/0.10.9/avalonia.avaloniaedit.0.10.9.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.controls.datagrid/0.10.7/avalonia.controls.datagrid.0.10.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.desktop/0.10.7/avalonia.desktop.0.10.7.nupkg.sha512",
     "/home/nucleon14/.nuget/packages/avalonia.diagnostics/0.10.7/avalonia.diagnostics.0.10.7.nupkg.sha512",

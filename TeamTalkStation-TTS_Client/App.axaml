@@ -28,7 +28,7 @@
         <StyleInclude Source="avares://Material.Icons.Avalonia/App.xaml"/>
         
         <sty:FluentAvaloniaTheme ControlsVersion="2" RequestedTheme="Dark" />
-        <StyleInclude Source="/Styles/ChatBubble.axaml"/>
+        <!-- <StyleInclude Source="/Styles/ChatBubble.axaml"/> -->
         <!-- <StyleInclude Source="/Controls/ChatMessageInputBox.axaml"/> -->
         <!-- <StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml" /> -->
         <!-- <StyleInclude Source="avares://Material.DataGrid/DataGrid.xaml"/> -->

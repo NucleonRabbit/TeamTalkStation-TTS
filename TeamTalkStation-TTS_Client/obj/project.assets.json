@@ -75,6 +75,18 @@
           }
         }
       },
+      "Avalonia.AvaloniaEdit/0.10.9": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "0.10.0-preview1"
+        },
+        "compile": {
+          "lib/netstandard2.0/AvaloniaEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AvaloniaEdit.dll": {}
+        }
+      },
       "Avalonia.Controls.DataGrid/0.10.7": {
         "type": "package",
         "dependencies": {
@@ -1178,6 +1190,18 @@
         "runtimes/win-arm64/native/av_libglesv2.dll",
         "runtimes/win7-x64/native/av_libglesv2.dll",
         "runtimes/win7-x86/native/av_libglesv2.dll"
+      ]
+    },
+    "Avalonia.AvaloniaEdit/0.10.9": {
+      "sha512": "YqMTSjslpHapR/tiPw7ZN96BReLC+203hNwHEEak9w4yCH7KEU1d5/g7HUXc1mpUlEFxJWDL1/wX3lJxkFmPUw==",
+      "type": "package",
+      "path": "avalonia.avaloniaedit/0.10.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonia.avaloniaedit.0.10.9.nupkg.sha512",
+        "avalonia.avaloniaedit.nuspec",
+        "lib/netstandard2.0/AvaloniaEdit.dll"
       ]
     },
     "Avalonia.Controls.DataGrid/0.10.7": {
@@ -3348,6 +3372,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Avalonia >= 0.10.7",
+      "Avalonia.AvaloniaEdit >= 0.10.9",
       "Avalonia.Desktop >= 0.10.7",
       "Avalonia.Diagnostics >= 0.10.7",
       "Avalonia.ReactiveUI >= 0.10.7",
@@ -3402,6 +3427,10 @@
           "Avalonia": {
             "target": "Package",
             "version": "[0.10.7, )"
+          },
+          "Avalonia.AvaloniaEdit": {
+            "target": "Package",
+            "version": "[0.10.9, )"
           },
           "Avalonia.Desktop": {
             "target": "Package",

@@ -33,8 +33,13 @@
                      Watermark="Type message here..."
                      AcceptsReturn="True"
                      Height="150"
+                     TextWrapping="Wrap"
                      AcceptsTab="True">
             </TextBox>
+            
+            
+            <!-- <AE:TextEditor Grid.Column="1" Height="150" WordWrap="True"></AE:TextEditor> -->
+            
             
             
             <Button Grid.Column="2">

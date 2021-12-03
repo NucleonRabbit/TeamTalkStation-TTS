@@ -35,15 +35,15 @@ namespace TeamTalkStation_TTS_Client.Controls
         private void SendMessageButtonOnClick(object? sender, RoutedEventArgs e)
         {
 
-            ChatBubble bubble = new ChatBubble();
-
-            StringBuilder sb = new StringBuilder("My name is Nucleon14");
-            sb.Append(" ");
-            bubble.IsRead = true;
-            bubble.Content = sb.ToString();
+            // ChatBubble bubble = new ChatBubble();
+            //
+            // StringBuilder sb = new StringBuilder("My name is Nucleon14");
+            // sb.Append(" ");
+            // bubble.IsRead = true;
+            // bubble.Content = sb.ToString();
             
-            DoubleChatView.MessagePanel.Children.Add(bubble);
-            //DoubleChatView.ChatMessageViewer.ScrollToHome();
+            // DoubleChatView.MessagePanel.Children.Add(bubble);
+            // //DoubleChatView.ChatMessageViewer.ScrollToHome();
             DoubleChatView.ChatMessageViewer.ScrollToEnd();
         }
     }

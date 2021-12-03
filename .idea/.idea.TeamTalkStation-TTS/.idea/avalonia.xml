@@ -12,6 +12,7 @@
         <entry key="TeamTalkStation-TTS_Client/Controls/ChatsControl.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/ContactsControl.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/ImageChatBubbleControl.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
+        <entry key="TeamTalkStation-TTS_Client/Controls/MessageContent.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/PageBar.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/SelectableTextBlock.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />
         <entry key="TeamTalkStation-TTS_Client/Controls/SendingChatBubble.axaml" value="TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj" />

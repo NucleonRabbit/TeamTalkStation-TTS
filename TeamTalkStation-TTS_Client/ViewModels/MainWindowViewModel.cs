@@ -25,7 +25,7 @@ namespace TeamTalkStation_TTS_Client.ViewModels
         
         public MainWindowViewModel()
         {
-            ProfileEditWindowEntity = new ProfileEditWindow();
+            //ProfileEditWindowEntity = new ProfileEditWindow();
         }
 
 
@@ -33,14 +33,22 @@ namespace TeamTalkStation_TTS_Client.ViewModels
         public void OpenProfileEditWindow()
         {
 
-            if (ProfileEditWindowEntity == null)
+            if (ProfileEditWindowEntity == null || ProfileEditWindowEntity.IsVisible == false)
             {
                 ProfileEditWindowEntity = new ProfileEditWindow();
+                ProfileEditWindowEntity.Show();
+                
             }
-            
-            ProfileEditWindowEntity.Show();
+            else
+            {
+                // ProfileEditWindowEntity.Show();
+                // //ProfileEditWindowEntity = null;
+                
+                ProfileEditWindowEntity.Activate();
+                ProfileEditWindowEntity.WindowState = Avalonia.Controls.WindowState.Normal;
+            }
 
-            ProfileEditWindowEntity = null;
+            
         }
         
     }

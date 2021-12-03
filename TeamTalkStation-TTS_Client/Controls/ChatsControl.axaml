@@ -40,13 +40,7 @@
                         </Grid.ColumnDefinitions>
                     
                     
-                    <Image Grid.Column="0" Source="/Assets/0.jpeg">
-                        
-                        <Image.Clip>
-                            <EllipseGeometry Rect="0,0,70,70"/>
-                        </Image.Clip>
-                        
-                    </Image>
+                    <Image Grid.Column="0" Source="/Assets/0.jpeg" Height="70" Width="70"/>
                     
                     <StackPanel Grid.Column="1" Orientation="Horizontal">
                         <TextBlock Text="Nucleon14 Test" TextAlignment="Center" FontWeight="ExtraBold"/>
@@ -67,13 +61,10 @@
               </Grid.ColumnDefinitions>
                     
                     
-              <Image Grid.Column="0" Source="/Assets/0.jpeg">
+              <Image Grid.Column="0" Source="/Assets/0.jpeg" Height="70" Width="70"/>
+    
                         
-                  <Image.Clip>
-                      <EllipseGeometry Rect="0,0,70,70"/>
-                  </Image.Clip>
-                        
-              </Image>
+              
                     
               <StackPanel Grid.Column="1" Orientation="Vertical">
                   <TextBlock Text="Nucleon14 Test" TextAlignment="Left" FontSize="20" FontWeight="ExtraBold"/>

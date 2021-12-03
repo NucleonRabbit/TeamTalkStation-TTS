@@ -9,6 +9,7 @@
       "TeamTalkStation-TTS_Client/1.0.0": {
         "dependencies": {
           "Avalonia": "0.10.7",
+          "Avalonia.AvaloniaEdit": "0.10.9",
           "Avalonia.Desktop": "0.10.7",
           "Avalonia.Diagnostics": "0.10.7",
           "Avalonia.ReactiveUI": "0.10.7",
@@ -127,6 +128,17 @@
             "rid": "win7-x86",
             "assetType": "native",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Avalonia.AvaloniaEdit/0.10.9": {
+        "dependencies": {
+          "Avalonia": "0.10.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AvaloniaEdit.dll": {
+            "assemblyVersion": "0.10.9.0",
+            "fileVersion": "0.10.9.0"
           }
         }
       },
@@ -909,6 +921,13 @@
       "sha512": "sha512-nGsCPI8FuUknU/e6hZIqlsKRDxClXHZyztmgM8vuwslFC/BIV3LqM2wKefWbr6SORX4Lct4nivhSMkdF/TrKgg==",
       "path": "avalonia.angle.windows.natives/2.1.0.2020091801",
       "hashPath": "avalonia.angle.windows.natives.2.1.0.2020091801.nupkg.sha512"
+    },
+    "Avalonia.AvaloniaEdit/0.10.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YqMTSjslpHapR/tiPw7ZN96BReLC+203hNwHEEak9w4yCH7KEU1d5/g7HUXc1mpUlEFxJWDL1/wX3lJxkFmPUw==",
+      "path": "avalonia.avaloniaedit/0.10.9",
+      "hashPath": "avalonia.avaloniaedit.0.10.9.nupkg.sha512"
     },
     "Avalonia.Controls.DataGrid/0.10.7": {
       "type": "package",

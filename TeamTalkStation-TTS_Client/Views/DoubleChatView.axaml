@@ -32,21 +32,21 @@
                     <StackPanel Orientation="Vertical" Name="MessagePanel" >
                         
                
-                        <controls:ChatBubble Content="Hello" Role="Sender" IsRead="True"/>
-                        <controls:ChatBubble Content="What is your name " Role="Sender" IsRead="True"/>
-                        <controls:ChatBubble Content="My name is Nucleon14 " Role="Receiver" IsRead="True"/>
-                        <controls:ChatBubble Content="And your? " Role="Receiver" IsRead="True"/>
-                        <controls:ChatBubble Content="My name is Steve " Role="Sender" IsRead="True"/>
-                        <controls:ChatBubble Content="Can you speak Chinese " Role="Sender" IsRead="True"/>
-                        <controls:ChatBubble Content="可以 " Role="Receiver" IsRead="True"/>
-                        <controls:ChatBubble Content="我也一样 " Role="Sender" IsRead="True"/>
-                        <controls:ChatBubble Content="你今天中午吃的什么 " Role="Receiver" IsRead="True"/>
-                        <controls:ChatBubble Content="鼻屎黄瓜 " Role="Sender" IsRead="True"/>
-                        
-                      
-                        <controls:ImageChatBubble Content="/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/Assets/0.jpeg"></controls:ImageChatBubble>
+                        <!-- <controls:ChatBubble Content="Hello" Role="Sender" IsRead="True"/> -->
+                        <!-- <controls:ChatBubble Content="What is your name " Role="Sender" IsRead="True"/> -->
+                        <!-- <controls:ChatBubble Content="My name is Nucleon14 " Role="Receiver" IsRead="True"/> -->
+                        <!-- <controls:ChatBubble Content="And your? " Role="Receiver" IsRead="True"/> -->
+                        <!-- <controls:ChatBubble Content="My name is Steve " Role="Sender" IsRead="True"/> -->
+                        <!-- <controls:ChatBubble Content="Can you speak Chinese " Role="Sender" IsRead="True"/> -->
+                        <!-- <controls:ChatBubble Content="可以 " Role="Receiver" IsRead="True"/> -->
+                        <!-- <controls:ChatBubble Content="我也一样 " Role="Sender" IsRead="True"/> -->
+                        <!-- <controls:ChatBubble Content="你今天中午吃的什么 " Role="Receiver" IsRead="True"/> -->
+                        <!-- <controls:ChatBubble Content="鼻屎黄瓜 " Role="Sender" IsRead="True"/> -->
+                        <!-- -->
+                        <!-- -->
+                        <!-- <controls:ImageChatBubble Content="/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/Assets/0.jpeg"></controls:ImageChatBubble> -->
 
-                        
+                        <controls:MessageContent/>
                         <!-- <controls:ImageChatBubble Role="Sender" IsRead="True"/> -->
                     </StackPanel>
            

@@ -27,14 +27,11 @@
         <Grid Grid.Row="0" Margin="0,30,0,0">
             <Button Command="{Binding OpenProfileEditWindow}" CommandParameter="{Binding MainWindow}"
                     Background="Transparent" Height="70" BorderBrush="{x:Null}" BorderThickness="0">
+                
                 <Button.Content>
             
-                    <Image Width="65" Height="65" Source="/Assets/0.jpeg">
-                        <Image.Clip>
-                            <EllipseGeometry Rect="0,0,65,65"></EllipseGeometry>
-                        </Image.Clip>
-                    </Image>
-            
+                    <Image Height="65" Width="65" Source="/Assets/0.jpeg"/>
+                        
                 </Button.Content>
             </Button>
         </Grid>
