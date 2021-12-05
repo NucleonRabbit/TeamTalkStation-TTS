@@ -1,6 +1,6 @@
-using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
+using System;
 using TeamTalkStation_TTS_Client.ViewModels;
 
 namespace TeamTalkStation_TTS_Client
@@ -14,11 +14,11 @@ namespace TeamTalkStation_TTS_Client
 
             if (type != null)
             {
-                return (Control) Activator.CreateInstance(type)!;
+                return (Control)Activator.CreateInstance(type)!;
             }
             else
             {
-                return new TextBlock {Text = "Not Found: " + name};
+                return new TextBlock { Text = "Not Found: " + name };
             }
         }
 

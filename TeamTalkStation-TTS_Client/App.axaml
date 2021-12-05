@@ -1,40 +1,23 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:sty="using:FluentAvalonia.Styling"
-             xmlns:ui="using:FluentAvalonia.UI.Controls"
-             xmlns:uip="using:FluentAvalonia.UI.Controls.Primitives"
              xmlns:local="using:TeamTalkStation_TTS_Client"
+             xmlns:MaterialThemes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
              x:Class="TeamTalkStation_TTS_Client.App">
-    
-    
-    
-    
     <Application.DataTemplates>
         <local:ViewLocator/>
     </Application.DataTemplates>
     
-    <Application.Resources>
-        <!-- <themes:BundledTheme BaseTheme="Light" PrimaryColor="Teal" SecondaryColor="Amber"/> -->
-
+	<Application.Resources>
+        <MaterialThemes:BundledTheme BaseTheme="Dark"  PrimaryColor="Indigo" SecondaryColor="Cyan"/>
     </Application.Resources>
-    
-    
-
+	
+	
     <Application.Styles>
         <FluentTheme Mode="Dark"/>
-        <!-- <FluentTheme Mode="Light"/> -->
-        <!-- <StyleInclude Source="/Styles/Accents.axaml"/> -->
-        <!-- <StyleInclude Source="/Styles/MessageComposer.axaml"/> -->
+        <StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml"/>
         <StyleInclude Source="avares://Material.Icons.Avalonia/App.xaml"/>
-        
-        <sty:FluentAvaloniaTheme ControlsVersion="2" RequestedTheme="Dark" />
-        <!-- <StyleInclude Source="/Styles/ChatBubble.axaml"/> -->
-        <!-- <StyleInclude Source="/Controls/ChatMessageInputBox.axaml"/> -->
+        <!-- <StyleInclude Source="avares://Avalonia.Themes.Default/DefaultTheme.xaml"/> -->
+        <!-- <StyleInclude Source="avares://Avalonia.Themes.Default/Accents/BaseLight.xaml"/> -->
         <!-- <StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml" /> -->
-        <!-- <StyleInclude Source="avares://Material.DataGrid/DataGrid.xaml"/> -->
-        
     </Application.Styles>
 </Application>
-
-
-

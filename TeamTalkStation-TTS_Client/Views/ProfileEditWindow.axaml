@@ -1,54 +1,68 @@
-<Window xmlns="https://github.com/avaloniaui"
+﻿<Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="450"
-        Width="450" Height="450"
-        MaxHeight="450" MaxWidth="450"
-        MinHeight="450" MinWidth="450"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        MaxHeight="560" MaxWidth="560"
+        MinHeight="560" MinWidth="560"
         x:Class="TeamTalkStation_TTS_Client.Views.ProfileEditWindow"
         Title="ProfileEditWindow">
-    
-    <StackPanel Orientation="Vertical">
-        
-        <Grid Background="Yellow" Height="150">
-            
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            
-            
-            <Grid Grid.Column="1" Background="Yellow" Width="150">
-                <Image Height="150" Width="150" Source="/Assets/0.jpeg">
-                    <Image.Clip>
-                        <EllipseGeometry Rect="0,0,150,150"/>
-                    </Image.Clip>
-                </Image>
-            </Grid>
-        
-        </Grid>
-        
-        <Grid Height="50">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="60"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            
-            <Button Grid.Column="0" Background="Green" Name="AvatarChangeButton" Content="Change Avatar"/>
-            
-            <Button Grid.Column="2" Name="ProfileColorChangeButton" Content="Change Profile Color"/>
-        </Grid>
         
         
-        <StackPanel Height="250" Orientation="Vertical">
-            <Button Height="30" Background="Blue" Content="Change Introduction" Name="IntroductionChangeButton"/>
+        
+        <StackPanel Orientation="Vertical">
+        
+                <Grid Height="150">
             
-            <TextBox Height="220" TextWrapping="Wrap" MaxLength="800" AcceptsReturn="True" Watermark="Write your introduction down here..." Name="UserIntroductionTextBox"/>
+                            
+                        <Grid.Background>
+                                
+                                
+                                <ImageBrush Source="/Assets/1.png"/>
+                        </Grid.Background>   
+                        
+                        
+                        <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+            
+            
+                        <Grid Grid.Column="0" Width="150">
+                                <Image Height="150" Width="150" Source="/Assets/0.jpeg"/>
+                        </Grid>
+                        
+        
+                </Grid>
+        
+                <Grid Height="50">
+                        <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+            
+                        <Button Grid.Column="0" Name="AvatarChangeButton" Content="Change Avatar"/>
+                        
+                        <Button Grid.Column="2" Name="ProfileImageChangeButton" Content="Change Profile Image" />
+                </Grid>
+        
+        
+                <StackPanel Height="350" Orientation="Vertical">
+                        <Button Height="30" Content="Change Introduction" Name="IntroductionChangeButton"/>
+            
+                        <TextBox Height="300"
+                                 TextWrapping="Wrap"
+                                 MaxLength="800"
+                                 AcceptsReturn="True"
+                                 Watermark="Write your introduction down here..."
+                                 Name="UserIntroductionTextBox"
+                                 BorderBrush="{x:Null}"
+                                 BorderThickness="0"
+                                 />
+                </StackPanel>
+        
+        
         </StackPanel>
-        
-        
-    </StackPanel>
 </Window>

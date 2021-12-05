@@ -1,36 +1,27 @@
-<UserControl xmlns="https://github.com/avaloniaui"
+﻿<UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="TeamTalkStation_TTS_Client.Controls.AvatarBarTop">
-    
-    
     <Grid Height="80">
-        
-        
         <StackPanel Orientation="Horizontal">
-            
-            
-            
-            
-            <Image Source="/Assets/0.jpeg" Height="75" Width="75"/>
-                
-            
-            
+            <!-- <Image Source="/Assets/0.jpeg" Height="75" Width="75"/> -->
+            <Button Height="75" Width="75">
+                <Button.Background>
+                    <ImageBrush Source="/Assets/0.jpeg"/>
+                </Button.Background>
+                <Button.Foreground>
+                    <ImageBrush Source="/Assets/0.jpeg"/>
+                </Button.Foreground>
+            </Button>
+            <Grid Width="10"/>
             <StackPanel Orientation="Vertical">
-                
                 <TextBlock FontSize="30" Foreground="White" Focusable="True" Text="Nucleon to the 14th"/>
-
+                <TextBlock FontSize="15" Text="我爱Blender" Foreground="Azure"/>
+                <Grid Height="7"/>
                 <TextBlock FontSize="15" Text="UID: 000001"/>
             </StackPanel>
-            
-            
-            
         </StackPanel>
-        
-        
     </Grid>
-    
-    
 </UserControl>

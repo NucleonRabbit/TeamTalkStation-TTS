@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lhk14\\Desktop\\TeamTalkStation-TTS\\TeamTalkStation-TTS\\TeamTalkStation-TTS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lhk14\\Desktop\\TeamTalkStation-TTS\\TeamTalkStation-TTS\\TeamTalkStation-TTS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lhk14\\Desktop\\TeamTalkStation-TTS\\TeamTalkStation-TTS\\TeamTalkStation-TTS.csproj",
+        "projectName": "TeamTalkStation-TTS",
+        "projectPath": "C:\\Users\\lhk14\\Desktop\\TeamTalkStation-TTS\\TeamTalkStation-TTS\\TeamTalkStation-TTS.csproj",
+        "packagesPath": "C:\\Users\\lhk14\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lhk14\\Desktop\\TeamTalkStation-TTS\\TeamTalkStation-TTS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lhk14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.10, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[0.10.10, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[0.10.10, )"
+            },
+            "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[0.10.10, )"
+            },
+            "FluentAvaloniaUI": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Material.Avalonia": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Material.Icons.Avalonia": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

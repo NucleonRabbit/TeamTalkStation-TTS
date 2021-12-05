@@ -1,0 +1,18 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:TeamTalkStation_TTS_Client.Controls"
+             xmlns:views="clr-namespace:TeamTalkStation_TTS_Client.Views"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="TeamTalkStation_TTS_Client.Views.ChatView">
+    <StackPanel Orientation="Vertical">
+        <controls:AvatarBarTop/>
+        
+        <Grid Height="25"/>
+        
+        <Grid>
+            <views:DoubleChatContentView/>
+        </Grid>
+    </StackPanel>
+</UserControl>

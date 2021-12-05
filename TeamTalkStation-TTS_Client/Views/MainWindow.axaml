@@ -1,42 +1,38 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:TeamTalkStation_TTS_Client.ViewModels"
-        xmlns:controls="clr-namespace:TeamTalkStation_TTS_Client.Controls"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:views="clr-namespace:TeamTalkStation_TTS_Client.Views"
-        mc:Ignorable="d" d:DesignWidth="920" d:DesignHeight="450"
-        Width="1220"
-        Height="850"
-        MinHeight="850"
-        MinWidth="920"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        MinHeight="800"
+        MinWidth="1500"
+        MaxWidth="1500"
+        MaxHeight="800"
         x:Class="TeamTalkStation_TTS_Client.Views.MainWindow"
+        xmlns:controls="clr-namespace:TeamTalkStation_TTS_Client.Controls"
+        xmlns:view="clr-namespace:TeamTalkStation_TTS_Client.Views"
         Icon="/Assets/avalonia-logo.ico"
-        Title="TeamTalkStation_TTS_Client">
+        Title="TeamTalkStation_TTS">
 
-  <Design.DataContext>
-    <vm:MainWindowViewModel/>
-  </Design.DataContext>
-  
-  
-  
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
 
-  <Grid>
+    
+    <Grid>
 
-    <Grid.ColumnDefinitions>
-      <ColumnDefinition Width="Auto"/>
-      <ColumnDefinition Width="300"/>
-      <ColumnDefinition Width="*"/>
-    </Grid.ColumnDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-    <controls:PageBar Grid.Column="0"/>
-    <controls:ChatsControl Grid.Column="1"/>
-    <views:DoubleChatView Grid.Column="2"/>
+        <controls:PageBar Grid.Column="0" />
+        <controls:ChatsControl Grid.Column="1" />
+        <view:ChatView Grid.Column="2" />
+        <!-- <controls:AvatarBarTop Grid.Column="2"/> -->
+        <!-- <views:DoubleChatView Grid.Column="2"/> -->
 
-  </Grid>
-
-
-
-
+    </Grid>
 
 </Window>

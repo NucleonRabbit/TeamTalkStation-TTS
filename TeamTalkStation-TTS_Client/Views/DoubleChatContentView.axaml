@@ -1,0 +1,44 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:TeamTalkStation_TTS_Client.Controls"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="TeamTalkStation_TTS_Client.Views.DoubleChatContentView">
+    <StackPanel Orientation="Horizontal">
+        
+        <StackPanel Orientation="Horizontal">
+            
+            
+            <Button Height="40" Width="40">
+                <Button.Background>
+                    <ImageBrush Source="/Assets/0.jpeg"/>
+                </Button.Background>
+                <Button.Foreground>
+                    <ImageBrush Source="/Assets/0.jpeg"/>
+                </Button.Foreground>
+            </Button>
+            
+
+            
+            <Grid Width="680">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal">
+                    <TextBlock Text="Nucleon to the 14th" FontWeight="Black"/>
+                    <Grid Width="15"/>
+                    <TextBlock Text="2021/12/5;16:54"/>
+                </StackPanel>
+                <TextBox Grid.Row="1" BorderThickness="0" BorderBrush="{x:Null}" 
+                         TextWrapping="Wrap" AcceptsReturn="True" TextAlignment="Left"
+                         IsReadOnly="True"
+                         Text="Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test "/>
+            </Grid>
+        </StackPanel>
+        
+        <controls:ChatMembersList/>
+        
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,27 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mi="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="TeamTalkStation_TTS_Client.Controls.ChatMembersList">
+    
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <Button Background="#303030">
+                <Button.Content>
+                    <mi:MaterialIcon Kind="PersonSearch" ></mi:MaterialIcon>
+                </Button.Content>
+            </Button>
+            <TextBox 
+                Width="100"
+                BorderThickness="0"
+                BorderBrush="{x:Null}"
+                Watermark="Search Member Of Group Here..."
+                TextWrapping="Wrap"
+                />
+        </StackPanel>
+    </StackPanel>
+    
+    
+</UserControl>

@@ -1,14 +1,17 @@
-<UserControl xmlns="https://github.com/avaloniaui"
+﻿<UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:local="clr-namespace:TeamTalkStation_TTS_Client.ViewModels"
-             xmlns:mi="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
+             xmlns:vm="clr-namespace:TeamTalkStation_TTS_Client.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             xmlns:mi="clr-namespace:Material.Icons.Avalonia;assembly=Material.Icons.Avalonia"
              x:Class="TeamTalkStation_TTS_Client.Controls.PageBar">
     
+    <!--#303030-->
+    
+    
     <UserControl.DataContext>
-        <local:MainWindowViewModel />
+        <vm:MainWindowViewModel />
     </UserControl.DataContext>
     
     <Grid >
@@ -24,21 +27,26 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         
-        <Grid Grid.Row="0" Margin="0,30,0,0">
-            <Button Command="{Binding OpenProfileEditWindow}" CommandParameter="{Binding MainWindow}"
-                    Background="Transparent" Height="70" BorderBrush="{x:Null}" BorderThickness="0">
-                
-                <Button.Content>
-            
-                    <Image Height="65" Width="65" Source="/Assets/0.jpeg"/>
-                        
-                </Button.Content>
+        <Grid Grid.Row="0" Margin="6,30,0,0">
+            <Button BorderBrush="{x:Null}" BorderThickness="0" Height="70" Width="70" Command="{Binding OpenProfileEditWindow}">
+               
+                <Button.Background>
+                    <ImageBrush Source="/Assets/0.jpeg"/>
+                </Button.Background>
+                <!-- <Button.Content> -->
+                <!-- -->
+                <!--     <ImageBrush Source="/Assets/0.jpeg"/> -->
+                <!-- -->
+                <!-- </Button.Content> -->
+                <Button.Foreground>
+                    <ImageBrush Source="/Assets/0.jpeg"/>
+                </Button.Foreground>
             </Button>
         </Grid>
         
         
         <Grid Grid.Row="2">
-            <Button Background="Transparent" BorderBrush="{x:Null}" BorderThickness="0">
+            <Button Background="#303030">
                 <Button.Content>
                     
                     <mi:MaterialIcon Width="50" Height="50" Kind="Chat"/>
@@ -49,7 +57,7 @@
         
         
         <Grid Grid.Row="4">
-            <Button Background="Transparent" BorderBrush="{x:Null}" BorderThickness="0">
+            <Button Background="#303030">
                 <Button.Content>
                     <mi:MaterialIcon Width="50" Height="50" Kind="Contacts" />
                 </Button.Content>
@@ -58,7 +66,7 @@
         
         
         <Grid Grid.Row="6">
-            <Button Background="Transparent" BorderBrush="{x:Null}" BorderThickness="0">
+            <Button Background="#303030">
                 <Button.Content>
                     
                     <mi:MaterialIcon Width="50" Height="50" Kind="Search"></mi:MaterialIcon>
