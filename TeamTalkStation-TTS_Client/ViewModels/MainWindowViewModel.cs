@@ -7,7 +7,7 @@ namespace TeamTalkStation_TTS_Client.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
-        
+
         private ProfileEditWindow ProfileEditWindowEntity { get; set; }
 
 

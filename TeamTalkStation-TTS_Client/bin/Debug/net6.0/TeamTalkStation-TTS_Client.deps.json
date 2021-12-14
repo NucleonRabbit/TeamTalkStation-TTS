@@ -12,9 +12,9 @@
           "Avalonia.Desktop": "0.10.10",
           "Avalonia.Diagnostics": "0.10.10",
           "Avalonia.ReactiveUI": "0.10.10",
-          "FluentAvaloniaUI": "1.1.6",
           "Material.Avalonia": "2.5.0",
-          "Material.Icons.Avalonia": "1.0.2"
+          "Material.Icons.Avalonia": "1.0.2",
+          "Microsoft.DotNet.ILCompiler": "6.0.0-rc.1.21420.1"
         },
         "runtime": {
           "TeamTalkStation-TTS_Client.dll": {}
@@ -110,17 +110,17 @@
           "runtimes/win-arm64/native/av_libglesv2.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.1.0.0"
           },
           "runtimes/win7-x64/native/av_libglesv2.dll": {
             "rid": "win7-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.1.0.0"
           },
           "runtimes/win7-x86/native/av_libglesv2.dll": {
             "rid": "win7-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.1.0.0"
           }
         }
       },
@@ -279,19 +279,6 @@
           "lib/net5.0/DynamicData.dll": {
             "assemblyVersion": "7.1.0.0",
             "fileVersion": "7.1.1.11487"
-          }
-        }
-      },
-      "FluentAvaloniaUI/1.1.6": {
-        "dependencies": {
-          "Avalonia": "0.10.10",
-          "Avalonia.Desktop": "0.10.10",
-          "Avalonia.Diagnostics": "0.10.10"
-        },
-        "runtime": {
-          "lib/net5.0/FluentAvalonia.dll": {
-            "assemblyVersion": "1.1.6.0",
-            "fileVersion": "1.1.6.0"
           }
         }
       },
@@ -662,6 +649,7 @@
           "System.Threading": "4.3.0"
         }
       },
+      "Microsoft.DotNet.ILCompiler/6.0.0-rc.1.21420.1": {},
       "Microsoft.NETCore.Platforms/2.1.2": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.Win32.SystemEvents/4.5.0": {
@@ -1138,13 +1126,6 @@
       "path": "dynamicdata/7.1.1",
       "hashPath": "dynamicdata.7.1.1.nupkg.sha512"
     },
-    "FluentAvaloniaUI/1.1.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-EJukyiTmEVhaYlHdntFMyQKI4+u772rSClKYQqJRfkTb1NoJXLqiIVqMjx8ZQ0pxnfih+6CZ7+x82lfrGHIPUw==",
-      "path": "fluentavaloniaui/1.1.6",
-      "hashPath": "fluentavaloniaui.1.1.6.nupkg.sha512"
-    },
     "HarfBuzzSharp/2.6.1.7": {
       "type": "package",
       "serviceable": true,
@@ -1228,6 +1209,13 @@
       "sha512": "sha512-P+MBhIM0YX+JqROuf7i306ZLJEjQYA9uUyRDE+OqwUI5sh41e2ZbPQV3LfAPh+29cmceE1pUffXsGfR4eMY3KA==",
       "path": "microsoft.csharp/4.3.0",
       "hashPath": "microsoft.csharp.4.3.0.nupkg.sha512"
+    },
+    "Microsoft.DotNet.ILCompiler/6.0.0-rc.1.21420.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CReENmiqLhrlRvhZfPURO1Hxvf6EeutYgpFvOEBMv8ttIkwnakqXSzrjwQBsoMoQwZSzvoKOq0oCBQJiCbaxog==",
+      "path": "microsoft.dotnet.ilcompiler/6.0.0-rc.1.21420.1",
+      "hashPath": "microsoft.dotnet.ilcompiler.6.0.0-rc.1.21420.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/2.1.2": {
       "type": "package",

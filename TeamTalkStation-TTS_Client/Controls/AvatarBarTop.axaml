@@ -4,7 +4,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="TeamTalkStation_TTS_Client.Controls.AvatarBarTop">
-    <Grid Height="80">
+    
+	
+	<Grid Height="80">
         <StackPanel Orientation="Horizontal">
             <!-- <Image Source="/Assets/0.jpeg" Height="75" Width="75"/> -->
             <Button Height="75" Width="75">
@@ -24,4 +26,6 @@
             </StackPanel>
         </StackPanel>
     </Grid>
+	
+	
 </UserControl>

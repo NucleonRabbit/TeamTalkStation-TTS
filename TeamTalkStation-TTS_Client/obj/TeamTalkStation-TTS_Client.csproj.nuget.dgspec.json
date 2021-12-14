@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj": {}
+    "C:\\Users\\lhk14\\source\\GitRepos\\TeamTalkStation-TTS\\TeamTalkStation-TTS_Client\\TeamTalkStation-TTS_Client.csproj": {}
   },
   "projects": {
-    "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj": {
+    "C:\\Users\\lhk14\\source\\GitRepos\\TeamTalkStation-TTS\\TeamTalkStation-TTS_Client\\TeamTalkStation-TTS_Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
+        "projectUniqueName": "C:\\Users\\lhk14\\source\\GitRepos\\TeamTalkStation-TTS\\TeamTalkStation-TTS_Client\\TeamTalkStation-TTS_Client.csproj",
         "projectName": "TeamTalkStation-TTS_Client",
-        "projectPath": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
-        "packagesPath": "/home/nucleon14/.nuget/packages/",
-        "outputPath": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/",
+        "projectPath": "C:\\Users\\lhk14\\source\\GitRepos\\TeamTalkStation-TTS\\TeamTalkStation-TTS_Client\\TeamTalkStation-TTS_Client.csproj",
+        "packagesPath": "C:\\Users\\lhk14\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lhk14\\source\\GitRepos\\TeamTalkStation-TTS\\TeamTalkStation-TTS_Client\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/nucleon14/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\lhk14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-experimental/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -54,10 +61,6 @@
               "target": "Package",
               "version": "[0.10.10, )"
             },
-            "FluentAvaloniaUI": {
-              "target": "Package",
-              "version": "[1.1.6, )"
-            },
             "Material.Avalonia": {
               "target": "Package",
               "version": "[2.5.0, )"
@@ -65,6 +68,10 @@
             "Material.Icons.Avalonia": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "Microsoft.DotNet.ILCompiler": {
+              "target": "Package",
+              "version": "[6.0.0-*, )"
             }
           },
           "imports": [
@@ -82,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

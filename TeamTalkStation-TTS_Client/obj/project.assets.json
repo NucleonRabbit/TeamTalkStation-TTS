@@ -244,20 +244,6 @@
           "lib/net5.0/DynamicData.dll": {}
         }
       },
-      "FluentAvaloniaUI/1.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Avalonia": "0.10.10",
-          "Avalonia.Desktop": "0.10.10",
-          "Avalonia.Diagnostics": "0.10.10"
-        },
-        "compile": {
-          "lib/net5.0/FluentAvalonia.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/FluentAvalonia.dll": {}
-        }
-      },
       "HarfBuzzSharp/2.6.1.7": {
         "type": "package",
         "dependencies": {
@@ -633,6 +619,12 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.DotNet.ILCompiler/6.0.0-rc.1.21420.1": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.DotNet.ILCompiler.targets": {}
         }
       },
       "Microsoft.NETCore.Platforms/2.1.2": {
@@ -1570,18 +1562,6 @@
         "lib/uap10.0.16299/DynamicData.xml"
       ]
     },
-    "FluentAvaloniaUI/1.1.6": {
-      "sha512": "EJukyiTmEVhaYlHdntFMyQKI4+u772rSClKYQqJRfkTb1NoJXLqiIVqMjx8ZQ0pxnfih+6CZ7+x82lfrGHIPUw==",
-      "type": "package",
-      "path": "fluentavaloniaui/1.1.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fluentavaloniaui.1.1.6.nupkg.sha512",
-        "fluentavaloniaui.nuspec",
-        "lib/net5.0/FluentAvalonia.dll"
-      ]
-    },
     "HarfBuzzSharp/2.6.1.7": {
       "sha512": "/ZDcKBMxStEjQs9MpSP3abSBJsdoWzkCQFZ8zRpDFAvblDysHazEhUTRyUYD/fVczlH6jX5V1EYCiITtdPz00w==",
       "type": "package",
@@ -1994,6 +1974,34 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Microsoft.DotNet.ILCompiler/6.0.0-rc.1.21420.1": {
+      "sha512": "CReENmiqLhrlRvhZfPURO1Hxvf6EeutYgpFvOEBMv8ttIkwnakqXSzrjwQBsoMoQwZSzvoKOq0oCBQJiCbaxog==",
+      "type": "package",
+      "path": "microsoft.dotnet.ilcompiler/6.0.0-rc.1.21420.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/BuildFrameworkNativeObjects.proj",
+        "build/CoreRTNatVis.natvis",
+        "build/Microsoft.DotNet.ILCompiler.targets",
+        "build/Microsoft.NETCore.Native.Publish.targets",
+        "build/Microsoft.NETCore.Native.Unix.props",
+        "build/Microsoft.NETCore.Native.Windows.props",
+        "build/Microsoft.NETCore.Native.targets",
+        "build/WindowsAPIs.txt",
+        "build/findvcvarsall.bat",
+        "microsoft.dotnet.ilcompiler.6.0.0-rc.1.21420.1.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.nuspec",
+        "runtime.json",
+        "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
+        "tools/netstandard/ILCompiler.Build.Tasks.dll",
+        "tools/netstandard/System.Collections.Immutable.dll",
+        "tools/netstandard/System.Reflection.Metadata.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.2": {
@@ -4333,31 +4341,39 @@
       "Avalonia.Desktop >= 0.10.10",
       "Avalonia.Diagnostics >= 0.10.10",
       "Avalonia.ReactiveUI >= 0.10.10",
-      "FluentAvaloniaUI >= 1.1.6",
       "Material.Avalonia >= 2.5.0",
-      "Material.Icons.Avalonia >= 1.0.2"
+      "Material.Icons.Avalonia >= 1.0.2",
+      "Microsoft.DotNet.ILCompiler >= 6.0.0-*"
     ]
   },
   "packageFolders": {
-    "/home/nucleon14/.nuget/packages/": {}
+    "C:\\Users\\lhk14\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
+      "projectUniqueName": "C:\\Users\\lhk14\\source\\GitRepos\\TeamTalkStation-TTS\\TeamTalkStation-TTS_Client\\TeamTalkStation-TTS_Client.csproj",
       "projectName": "TeamTalkStation-TTS_Client",
-      "projectPath": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/TeamTalkStation-TTS_Client.csproj",
-      "packagesPath": "/home/nucleon14/.nuget/packages/",
-      "outputPath": "/home/nucleon14/Projects/CSharpProjects/TeamTalkStation-TTS/TeamTalkStation-TTS_Client/obj/",
+      "projectPath": "C:\\Users\\lhk14\\source\\GitRepos\\TeamTalkStation-TTS\\TeamTalkStation-TTS_Client\\TeamTalkStation-TTS_Client.csproj",
+      "packagesPath": "C:\\Users\\lhk14\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lhk14\\source\\GitRepos\\TeamTalkStation-TTS\\TeamTalkStation-TTS_Client\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/nucleon14/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\lhk14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-experimental/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -4391,10 +4407,6 @@
             "target": "Package",
             "version": "[0.10.10, )"
           },
-          "FluentAvaloniaUI": {
-            "target": "Package",
-            "version": "[1.1.6, )"
-          },
           "Material.Avalonia": {
             "target": "Package",
             "version": "[2.5.0, )"
@@ -4402,6 +4414,10 @@
           "Material.Icons.Avalonia": {
             "target": "Package",
             "version": "[1.0.2, )"
+          },
+          "Microsoft.DotNet.ILCompiler": {
+            "target": "Package",
+            "version": "[6.0.0-*, )"
           }
         },
         "imports": [
@@ -4419,7 +4435,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

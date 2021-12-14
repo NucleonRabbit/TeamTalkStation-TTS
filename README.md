@@ -4,7 +4,7 @@
 
 **TeamTalkStation-TTS** is a ***free and open source*** teamwork system project based on BSD-3 Clause License
 
-This project includes both server(developing) and client
+This project includes both server(developing) and client(developing)
 
 
 
