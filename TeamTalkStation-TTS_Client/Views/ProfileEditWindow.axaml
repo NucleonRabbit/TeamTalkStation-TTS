@@ -5,69 +5,74 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         MaxHeight="560" MaxWidth="560"
         MinHeight="560" MinWidth="560"
+		FontFamily="resm:TeamTalkStation_TTS_Client.Assets.Fonts.NotoColorEmoji.ttf#Noto Color Emoji"
         x:Class="TeamTalkStation_TTS_Client.Views.ProfileEditWindow"
         Title="ProfileEditWindow">
-        
-        
-        
-        <StackPanel Orientation="Vertical">
-        
-                <Grid Height="150">
-            
-                            
-                        <Grid.Background>
-                                
-                                
-                                <ImageBrush Source="/Assets/1.png"/>
-                        </Grid.Background>   
-                        
-                        
-                        <Grid.ColumnDefinitions>
-                                <ColumnDefinition/>
-                                <ColumnDefinition/>
-                                <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-            
-            
-                        <Button Grid.Column="0" Height="75" Width="75">
-                                <!--<Image Height="150" Width="150" Source="/Assets/0.jpeg"/>-->
 
-							<Button.Background>
-								<ImageBrush Source="/Assets/0.jpeg"/>
-							</Button.Background>
-                        </Button>
+	
 
-                        
-        
-                </Grid>
-        
-                <Grid Height="50">
-                        <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="60"/>
-                                <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-            
-                        <Button Grid.Column="0" Name="AvatarChangeButton" Content="Change Avatar"/>
-                        
-                        <Button Grid.Column="2" Name="ProfileImageChangeButton" Content="Change Profile Image" />
-                </Grid>
-        
-        
-                <StackPanel Height="350" Orientation="Vertical">
-                        <Button Height="30" Content="Change Introduction" Name="IntroductionChangeButton"/>
-            
-                        <TextBox Height="300"
-                                 TextWrapping="Wrap"
-                                 MaxLength="800"
-                                 AcceptsReturn="True"
-                                 Watermark="Write your introduction down here..."
-                                 Name="UserIntroductionTextBox"
-                                 BorderBrush="{x:Null}"
-                                 BorderThickness="0"
+		<StackPanel Orientation="Vertical">
+
+			<Grid Height="150">
+
+
+				<Grid.Background>
+
+
+					<ImageBrush Source="/Assets/1.png"/>
+				</Grid.Background>
+
+
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+
+
+				<Button Grid.Column="0" Height="100" Width="100">
+					<!--<Image Height="150" Width="150" Source="/Assets/0.jpeg"/>-->
+
+					<Button.Background>
+						<ImageBrush Source="/Assets/0.jpeg"/>
+					</Button.Background>
+				</Button>
+
+
+
+			</Grid>
+
+			<Grid Height="50">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="60"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+
+				<Button Grid.Column="0" Name="AvatarChangeButton" Content="Change Avatar"/>
+
+				<Button Grid.Column="2" Name="ProfileImageChangeButton" Content="Change Profile Image" />
+			</Grid>
+
+
+			<StackPanel Height="350" Orientation="Vertical">
+				<Button Height="30" Content="Change Introduction" Name="IntroductionChangeButton"/>
+
+				<TextBox Height="300"
+						 TextWrapping="Wrap"
+						 MaxLength="800"
+						 AcceptsReturn="True"
+						 Watermark="Write your introduction down here..."
+						 Name="UserIntroductionTextBox"
+						 FontFamily="Noto Color Emoji"
+						 BorderBrush="{x:Null}"
+						 BorderThickness="0"
                                  />
-                </StackPanel>
-        
-        
-        </StackPanel>
+
+				<TextBlock Name="MyText"/>
+
+			</StackPanel>
+
+
+		</StackPanel>
 </Window>

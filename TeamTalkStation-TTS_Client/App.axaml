@@ -2,22 +2,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="using:TeamTalkStation_TTS_Client"
              xmlns:MaterialThemes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
+			 xmlns:ui="using:FluentAvalonia.UI.Controls"
+             xmlns:sty="using:FluentAvalonia.Styling"
+			 xmlns:wnd="using:FluentAvaloniaSamples.Views.Internal"
              x:Class="TeamTalkStation_TTS_Client.App">
     <Application.DataTemplates>
         <local:ViewLocator/>
     </Application.DataTemplates>
     
 	<Application.Resources>
-        <MaterialThemes:BundledTheme BaseTheme="Dark"  PrimaryColor="Indigo" SecondaryColor="Cyan"/>
+        <!--<MaterialThemes:BundledTheme BaseTheme="Dark"  PrimaryColor="Indigo" SecondaryColor="Cyan"/>-->
+		<FontFamily x:Key="MFS">
+			resm:TeamTalkStation-TTS_Client.Assets.Fonts.NotoColorEmoji.ttf
+		</FontFamily>
     </Application.Resources>
 	
 	
     <Application.Styles>
+
+		<Style>
+			
+		</Style>
+		
         <FluentTheme Mode="Dark"/>
-        <StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml"/>
+
+		<!--<FontFamily x:Key="skf">resm:TeamTalkStation_TTS_Client.Assets.Fonts.SourceHanSansK-Regular.ttf#Source Han Sans K Regular</FontFamily>-->
+
+        <!--<StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml"/>-->
         <StyleInclude Source="avares://Material.Icons.Avalonia/App.xaml"/>
-        <!-- <StyleInclude Source="avares://Avalonia.Themes.Default/DefaultTheme.xaml"/> -->
-        <!-- <StyleInclude Source="avares://Avalonia.Themes.Default/Accents/BaseLight.xaml"/> -->
-        <!-- <StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml" /> -->
+
+		<sty:FluentAvaloniaTheme RequestedTheme="Dark" />
+		
+         <!--<StyleInclude Source="avares://Avalonia.Themes.Default/DefaultTheme.xaml"/> 
+         <StyleInclude Source="avares://Avalonia.Themes.Default/Accents/BaseLight.xaml"/>--> 
+    
     </Application.Styles>
 </Application>
